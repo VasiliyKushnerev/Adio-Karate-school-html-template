@@ -1,0 +1,1556 @@
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE <<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+@media (min-width: 1680px) {
+  .clear {
+    display: none;
+  }
+}
+@media (min-width: 1360px) and (max-width: 1450px) {
+  .sidebar .sidebar__click {
+    left: 7%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1290px) {
+  .sidebar .sidebar__click {
+    left: 7.9%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1679px) {
+  body {
+    overflow-x: hidden;
+  }
+  .clear {
+    display: none;
+  }
+  .header h1 {
+    font-size: 1.8em;
+    margin: 4.7em 0 0 7.4em;
+  }
+  .header p {
+    margin: 1.4em 0 0 1.29em;
+    font-size: 3.4em;
+  }
+  .header p:nth-child(3) {
+    margin: 0.59em 0 0 1.29em;
+  }
+  .header-slide .header-top-main {
+    height: 81px;
+  }
+  .header-slide .header-top-main .header-top .header-top__navigation {
+    padding: 2em 0em 0em 4em;
+  }
+  .header-slide .header-top-main .header-top .header-top__navigation li a {
+    font-size: 1em;
+  }
+  .header-slide .header-top-main .header-top .header-top__logo:before {
+    position: absolute;
+    top: 14%;
+    left: 3%;
+    z-index: 2;
+  }
+  .header-slide .header-top-main .header-top .header-top__logo li {
+    z-index: 3;
+  }
+  .header-slide .header-top-main .header-top .header-top__logo li p {
+    padding: 0;
+    position: relative;
+    left: 80%;
+    top: 24%;
+    font-size: 1.7em;
+  }
+  .header-slide .header-top-main .header-top .header-top__logo li img {
+    position: relative;
+    left: 54%;
+    top: -16%;
+  }
+  .content {
+    width: 80%;
+  }
+  .content .header__slide .header__slide__part__one {
+    background-position: 69%;
+  }
+  .main_head-hp1 .main_head__buttons {
+    top: 37.3%;
+  }
+  .main_head-hp1 .main_head__buttons .main_head__buttons__btn-main {
+    font-size: 1.3em;
+    left: 148%;
+  }
+  .contact .contact__phone {
+    padding-left: 3.8em;
+  }
+  .contact .contact__phone li {
+    font-size: 1.17em;
+  }
+  .contact .contact__phone li:first-child {
+    font-size: 1.58em;
+    padding-top: 1.58em;
+  }
+  .contact .contact__mail li {
+    font-size: 1.17em;
+  }
+  .contact .contact__mail li:first-child {
+    padding-top: 1.58em;
+    font-size: 1.58em;
+  }
+  .navigation .navigation__top-nav p {
+    font-size: 1em;
+  }
+  .navigation .navigation__top-nav img {
+    height: 98px;
+  }
+  .navigation .navigation__menu {
+    padding: 2em 0 0 1.25em;
+  }
+  .navigation .navigation__menu a {
+    font-size: 1em;
+  }
+  .navigation .social {
+    padding: 0.3em 0 0 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navigation .social .social__btn-icon {
+    height: 2em;
+    width: 2em;
+    font-size: 1.1em;
+  }
+  .navigation .social li {
+    padding: 0em 0em 0.7em 0.5em;
+  }
+  .glav h2 {
+    font-size: 3.2em;
+  }
+  .phylosophy__row,
+  .features__row,
+  .classes__row {
+    padding-top: 5em;
+  }
+  /* >>>>>>>>>>>>>> :: Philosophy Area CSS <<<<<<<<<<<<<<< */
+  .philosophy .glav {
+    margin-top: 6.125em;
+  }
+  .philosophy .phylosophy__left h4 {
+    font-size: 1.33em;
+  }
+  .philosophy .phylosophy__left p {
+    font-size: 0.94em;
+  }
+  .philosophy .phylosophy__left figure p {
+    font-size: 0.9em;
+  }
+  .philosophy .phylosophy__left figure h3 {
+    font-size: 1.02em;
+  }
+  .philosophy .phylosophy__right img {
+    margin: 5.2em 0em 0em -0.5em;
+  }
+  /* >>>>>>>>>>>>>> :: Offer Area CSS <<<<<<<<<<<<<<< */
+  .offer {
+    padding-top: 8em;
+  }
+  .offer .offer__left .offer__left-substrate {
+    bottom: 5em;
+  }
+  .offer .offer__right .offer__right-substrate__content h3 {
+    font-size: 1.5em;
+  }
+  .offer .offer__right .offer__right-substrate__content p:nth-child(2) {
+    font-size: 2.8em;
+  }
+  .offer .offer__right .offer__right-substrate__content p:nth-child(3) {
+    font-size: 1.2em;
+  }
+  .offer .offer__right .offer__right-substrate__content p:nth-child(4) {
+    font-size: 0.87em;
+    width: 86%;
+  }
+  .offer .offer__right .offer__right-substrate__content a {
+    font-size: 1em;
+  }
+  .offer .offer__right .offer__right-substrate:before {
+    height: 100.1%;
+    top: 0.07%;
+  }
+  /* >>>>>>>>>>>>>> ::  Features Area CSS <<<<<<<<<<<<<<< */
+  .features .glav {
+    margin-top: 1.1em;
+  }
+  .features .features__row {
+    background-size: 32% 89%;
+  }
+  /* >>>>>>>>>>>>>> ::  Price Area CSS <<<<<<<<<<<<<<< */
+  .price p {
+    font-size: 0.94em;
+  }
+  .price span {
+    font-size: 2.8em;
+  }
+  .price span:after {
+    margin: 0.34em 0 0 2.38em;
+  }
+  .price a {
+    font-size: 1.49em;
+  }
+  .price h3 {
+    font-size: 1.8em;
+  }
+  /* >>>>>>>>>>>>>> ::  Classes Area CSS <<<<<<<<<<<<<<< */
+  .classes .classes__figure .classes__figure__content p {
+    font-size: 1em;
+  }
+  .classes .classes__figure .classes__figure__content h3 {
+    font-size: 1.7em;
+  }
+  .classes .classes__glav {
+    margin-top: 7.2em;
+  }
+  .classes .row {
+    padding-top: 5.7em;
+  }
+  /* >>>>>>>>>>>>>> ::  Trainers Area CSS <<<<<<<<<<<<<<< */
+  .trainers {
+    margin-top: 0.1em;
+  }
+  .trainers .glav {
+    margin-top: -17.9em;
+  }
+  .trainers h3 {
+    font-size: 1.3em;
+  }
+  .trainers p {
+    font-size: 0.94em;
+  }
+  .trainers i {
+    width: 2em;
+    height: 2em;
+    font-size: 1.3em;
+  }
+  .trainers .trainers__left-cont {
+    padding-top: 4.68em;
+  }
+  .trainers .row {
+    padding-top: 2.1em;
+  }
+  .trainers .row-second {
+    margin-top: -6.6em;
+  }
+  /* >>>>>>>>>>>>>> ::  Saya Area CSS <<<<<<<<<<<<<<< */
+  .says {
+    margin-top: 2.6em;
+  }
+  .says p {
+    font-size: 1em;
+  }
+  .says h4 {
+    font-size: 1.6em;
+  }
+  /* >>>>>>>>>>>>>> ::  News Area CSS <<<<<<<<<<<<<<< */
+  .news .glav {
+    margin-top: 6.125em;
+  }
+  /* >>>>>>>>>>>>>> ::  Map Area CSS <<<<<<<<<<<<<<< */
+  .map {
+    margin-top: 6.2em;
+  }
+  footer {
+    margin-top: 6.3em;
+  }
+  footer .copyr {
+    margin-top: -3.8em;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    overflow-x: hidden;
+  }
+  .clear {
+    display: none;
+  }
+  .header h1 {
+    font-size: 1.7em;
+    margin: 6em 0 0 7.3em;
+  }
+  .header p {
+    margin: 1.4em 0 0 1.1em;
+    font-size: 3.2em;
+  }
+  .header p:nth-child(3) {
+    margin: 0.59em 0 0 1.1em;
+  }
+  .header-slide .header-top-main {
+    height: 81px;
+  }
+  .header-slide .header-top-main .header-top .header-top__navigation {
+    padding: 2em 0em 0em 4em;
+  }
+  .header-slide .header-top-main .header-top .header-top__navigation li a {
+    font-size: 1em;
+  }
+  .header-slide .header-top-main .header-top .header-top__logo:before {
+    position: absolute;
+    top: 14%;
+    left: 3%;
+    z-index: 2;
+  }
+  .header-slide .header-top-main .header-top .header-top__logo li {
+    z-index: 3;
+  }
+  .header-slide .header-top-main .header-top .header-top__logo li p {
+    padding: 0;
+    position: relative;
+    left: 80%;
+    top: 24%;
+    font-size: 1.7em;
+  }
+  .header-slide .header-top-main .header-top .header-top__logo li img {
+    position: relative;
+    left: 54%;
+    top: -16%;
+  }
+  .content {
+    width: 86.3%;
+  }
+  .content .header__slide .header__slide__part__one {
+    background-position: 71% 0;
+  }
+  .sidebar .sidebar__click {
+    left: 9.8%;
+  }
+  .main_head-hp1 .main_head__buttons {
+    top: 42.3%;
+  }
+  .main_head-hp1 .main_head__buttons .main_head__buttons__btn-main {
+    font-size: 1.3em;
+    left: 131%;
+  }
+  .contact .contact__phone {
+    padding-left: 2.875em;
+  }
+  .contact .contact__phone li {
+    font-size: 1.1em;
+  }
+  .contact .contact__phone li:first-child {
+    font-size: 1.5em;
+    padding-top: 1.55em;
+  }
+  .contact .contact__mail li {
+    font-size: 1.1em;
+  }
+  .contact .contact__mail li:first-child {
+    padding-top: 1.55em;
+    font-size: 1.5em;
+  }
+  .navigation .navigation__menu {
+    padding: 2.9em 0 0 1.25em;
+  }
+  .navigation .navigation__menu a {
+    font-size: 1em;
+  }
+  .navigation .social {
+    padding: 2.4em 0 0 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navigation .social .social__btn-icon {
+    height: 2em;
+    width: 2em;
+    font-size: 1.1em;
+  }
+  .navigation .social li {
+    padding: 0em 0em 0.7em 0.5em;
+  }
+  .glav h2 {
+    font-size: 3.2em;
+  }
+  .phylosophy__row,
+  .features__row,
+  .classes__row {
+    padding-top: 5em;
+  }
+  /* >>>>>>>>>>>>>> :: Philosophy Area CSS <<<<<<<<<<<<<<< */
+  .philosophy .glav {
+    margin-top: 6.125em;
+  }
+  .philosophy .phylosophy__left h4 {
+    font-size: 1.33em;
+  }
+  .philosophy .phylosophy__left p {
+    font-size: 0.94em;
+  }
+  .philosophy .phylosophy__left figure p {
+    font-size: 0.9em;
+  }
+  .philosophy .phylosophy__left figure h3 {
+    font-size: 1.02em;
+  }
+  .philosophy .phylosophy__right img {
+    margin: 5.2em 0em 0em -0.5em;
+  }
+  /* >>>>>>>>>>>>>> :: Offer Area CSS <<<<<<<<<<<<<<< */
+  .offer .offer__left .offer__left-substrate {
+    bottom: 5em;
+  }
+  .offer .offer__right .offer__right-substrate__content h3 {
+    font-size: 1.5em;
+  }
+  .offer .offer__right .offer__right-substrate__content p:nth-child(2) {
+    font-size: 2.5em;
+  }
+  .offer .offer__right .offer__right-substrate__content p:nth-child(3) {
+    font-size: 1.2em;
+  }
+  .offer .offer__right .offer__right-substrate__content p:nth-child(4) {
+    font-size: 0.87em;
+    width: 86%;
+  }
+  .offer .offer__right .offer__right-substrate__content a {
+    font-size: 1em;
+  }
+  .offer .offer__right .offer__right-substrate:before {
+    height: 100.1%;
+    top: 0.07%;
+  }
+  /* >>>>>>>>>>>>>> ::  Features Area CSS <<<<<<<<<<<<<<< */
+  .features .glav {
+    margin-top: 5.5em;
+  }
+  .features .features__row {
+    background-size: 44% 89%;
+  }
+  .features span {
+    width: 4em;
+    height: 4em;
+  }
+  .features span i {
+    font-size: 1.8em;
+  }
+  .features p {
+    width: 12em;
+    text-align: center;
+  }
+  .features h3 {
+    text-align: center;
+  }
+  .features .features__left figure:first-child,
+  .features .features__left figure,
+  .features .features__left figure:nth-child(2) {
+    padding-left: 2em;
+  }
+  .features .features__left h3 {
+    text-align: center;
+    margin-left: -9.5em;
+  }
+  .features .features__left span {
+    left: 3.5em;
+    top: -10.5em;
+  }
+  .features figure {
+    position: relative;
+    top: 14%;
+    margin-bottom: 4em;
+  }
+  .features .features__right figure:first-child,
+  .features .features__right figure,
+  .features .features__right figure:nth-child(2) {
+    padding-right: 2em;
+  }
+  .features .features__right span {
+    left: 3.5em;
+    top: -10.5em;
+  }
+  /* >>>>>>>>>>>>>> ::  Price Area CSS <<<<<<<<<<<<<<< */
+  .price p {
+    font-size: 0.94em;
+  }
+  .price span {
+    font-size: 2.8em;
+  }
+  .price span:after {
+    margin: 0.34em 0 0 1.6em;
+  }
+  .price a {
+    font-size: 1.49em;
+  }
+  .price h3 {
+    font-size: 1.8em;
+  }
+  /* >>>>>>>>>>>>>> ::  Classes Area CSS <<<<<<<<<<<<<<< */
+  .classes {
+    margin-bottom: 385px;
+  }
+  .classes .classes__glav {
+    margin-top: 8.9em;
+  }
+  .classes .row {
+    padding-top: 1.7em;
+  }
+  .classes .classes__figure .classes__figure__content h3 {
+    font-size: 1.8em;
+  }
+  .classes .classes__figure .classes__figure__content p {
+    font-size: 1em;
+  }
+  /* >>>>>>>>>>>>>> ::  Trainers Area CSS <<<<<<<<<<<<<<< */
+  .trainers {
+    margin-top: 1.1em;
+  }
+  .trainers .glav {
+    margin-top: -17.9em;
+  }
+  .trainers h3 {
+    font-size: 1.3em;
+  }
+  .trainers p {
+    font-size: 0.94em;
+  }
+  .trainers i {
+    width: 2em;
+    height: 2em;
+    font-size: 1.3em;
+  }
+  .trainers .trainers__left-cont {
+    padding-top: 2.89em;
+  }
+  .trainers .row {
+    padding-top: 2.1em;
+  }
+  .trainers .row-second {
+    margin-top: -5.5em;
+  }
+  /* >>>>>>>>>>>>>> ::  Saya Area CSS <<<<<<<<<<<<<<< */
+  .says {
+    margin-top: -0.45em;
+  }
+  .says p {
+    font-size: 1em;
+  }
+  .says h4 {
+    font-size: 1.6em;
+  }
+  /* >>>>>>>>>>>>>> ::  News Area CSS <<<<<<<<<<<<<<< */
+  .news .glav {
+    margin-top: 6.125em;
+  }
+  .news .news__main img {
+    height: 100%;
+  }
+  /* >>>>>>>>>>>>>> ::  Map Area CSS <<<<<<<<<<<<<<< */
+  .map {
+    margin-top: 6.2em;
+  }
+  footer {
+    margin-top: 6.3em;
+  }
+  footer .footer__one p {
+    font-size: 1em;
+  }
+  footer .footer__two ul li a p {
+    font-size: 1em;
+  }
+  footer .footer__four p {
+    font-size: 1em;
+  }
+  footer .copyr {
+    margin-top: -3.8em;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+  .clear {
+    display: none;
+  }
+  .content {
+    width: 80%;
+  }
+  .content .header__slide .one,
+  .content .header__slide .two {
+    background-position-x: 86%;
+  }
+  .main_head-hp1 .main_head__buttons .main_head__buttons__btn-main {
+    font-size: 1.4em;
+    top: 14.8em;
+    left: 7em;
+  }
+  .header p {
+    font-size: 2.9em;
+    margin: 1.97em 0 0 1em;
+    text-align: center;
+    line-height: 1;
+  }
+  .header p:nth-child(3) {
+    margin: 0.59em 0 0 0.37em;
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 1.7em;
+    margin: 9.2em 0 0 1.8em;
+  }
+  .contact .contact__phone {
+    padding-left: 5.6em;
+  }
+  .contact .contact__phone li {
+    font-size: 1em;
+  }
+  .contact .contact__phone li:first-child {
+    font-size: 1.5em;
+    padding-top: 1.3em;
+  }
+  .contact .contact__mail li {
+    font-size: 1em;
+  }
+  .contact .contact__mail li:first-child {
+    font-size: 1.5em;
+    padding-top: 1.3em;
+  }
+  .sidebar .sidebar__click {
+    left: 13%;
+  }
+  .glav {
+    margin-top: 6.9em;
+  }
+  .glav h2 {
+    font-size: 3.2em;
+  }
+  /* >>>>>>>>>>>>>> :: Philosophy Area CSS <<<<<<<<<<<<<<< */
+  .philosophy .phylosophy__right {
+    margin: 0 auto;
+  }
+  .philosophy .phylosophy__right img {
+    margin: 5.2em 0em 0em 0em;
+  }
+  /* >>>>>>>>>>>>>> :: Offer Area CSS <<<<<<<<<<<<<<< */
+  .offer {
+    padding-top: 6.8em;
+  }
+  .offer .offer__right .offer__right-substrate:before {
+    display: none;
+  }
+  .offer .offer__right .offer__right-substrate__content {
+    text-align: center;
+  }
+  .offer .offer__right .offer__right-substrate__content p:nth-child(4) {
+    width: 62%;
+    margin: 0 auto;
+  }
+  .offer .offer__left {
+    display: none;
+  }
+  /* >>>>>>>>>>>>>> :: Features Area CSS <<<<<<<<<<<<<<< */
+  .features .features__row {
+    background: none;
+  }
+  .features .glav {
+    margin-top: 6.7em;
+  }
+  .features span {
+    width: 4em;
+    height: 4em;
+  }
+  .features span i {
+    font-size: 2em;
+  }
+  .features h3 {
+    padding-left: 1.4em;
+  }
+  .features p {
+    text-align: center;
+    padding-bottom: 1.2em;
+  }
+  .features .features__left {
+    margin: 5em 0em 0em 3em;
+  }
+  .features .features__left figure:first-child {
+    padding: 0;
+  }
+  .features .features__left figure:nth-child(2) {
+    padding: 0;
+  }
+  .features .features__left span {
+    left: 3.7em;
+    top: -12em;
+  }
+  .features .features__right {
+    margin: 5em 0em 0em 0em;
+  }
+  .features .features__right span {
+    left: 4.2em;
+    top: -12em;
+  }
+  .features .features__right figure:first-child {
+    padding: 0;
+  }
+  .features .features__right figure:nth-child(2) {
+    padding: 0;
+  }
+  .features .features__right figure:nth-child(2) h3 {
+    padding-left: 2em;
+  }
+  /* >>>>>>>>>>>>>> :: Price Area CSS <<<<<<<<<<<<<<< */
+  .price {
+    height: 100%;
+    margin-top: -1em;
+  }
+  .price figure {
+    margin-bottom: 1.5em;
+  }
+  .price .row {
+    justify-content: center;
+  }
+  .price h3 {
+    font-size: 1.6em;
+    padding-top: 1.5em;
+  }
+  .price .price__center p {
+    padding-bottom: 2.11em;
+  }
+  .price span {
+    font-size: 3em;
+    padding-top: 0.5em;
+  }
+  .price span:after {
+    display: none;
+  }
+  .price p {
+    font-size: 0.94em;
+  }
+  .price a {
+    font-size: 1.5em;
+  }
+  .price .price__left figure {
+    top: 0;
+    left: 0;
+  }
+  .price .price__right figure {
+    top: 0;
+    right: 0;
+  }
+  /* >>>>>>>>>>>>>> :: Classes Area CSS <<<<<<<<<<<<<<< */
+  .classes {
+    margin-bottom: 0;
+  }
+  .classes .classes_main_figure {
+    margin: 0 auto;
+    width: 66%;
+    margin-top: 1.5em;
+  }
+  .classes figure {
+    width: 100%;
+    margin-left: 0;
+  }
+  .classes .classes__glav {
+    margin-top: 5.3em;
+  }
+  .classes .classes__figure .classes__figure__content p {
+    font-size: 1em;
+  }
+  /* >>>>>>>>>>>>>> :: Trainers Area CSS <<<<<<<<<<<<<<< */
+  .trainers {
+    margin-top: 6.7em;
+  }
+  .trainers .glav {
+    margin-top: 0;
+  }
+  .trainers .trainers__left-cont {
+    padding: 5.31em 1.31em 6.62em 1.69em;
+  }
+  /* >>>>>>>>>>>>>> :: Saya Area CSS <<<<<<<<<<<<<<< */
+  .says img {
+    padding-top: 4.3em;
+  }
+  .says .glav {
+    margin-top: -1.4em;
+    padding-top: 6.8em;
+  }
+  .says .says__main__nav {
+    margin-top: 3.81em;
+  }
+  .says p {
+    font-size: 1em;
+  }
+  /* >>>>>>>>>>>>>> :: News Area CSS <<<<<<<<<<<<<<< */
+  .news .news__main img {
+    height: 100%;
+  }
+  .news .news__one {
+    min-width: 50%;
+  }
+  .news .news__two {
+    min-width: 50%;
+  }
+  .news .news__third {
+    display: none;
+  }
+  /* >>>>>>>>>>>>>> :: News Area CSS <<<<<<<<<<<<<<< */
+  .map {
+    margin-top: 6.8em;
+  }
+  /* >>>>>>>>>>>>>> :: Footer Area CSS <<<<<<<<<<<<<<< */
+  .footer .footer__one p {
+    padding-left: 3em;
+  }
+  .footer .footer__one figure {
+    padding-left: 3em;
+  }
+  .footer .footer__one ul {
+    padding-left: 3em;
+  }
+  .footer .footer__four .row {
+    padding-left: 6em;
+  }
+  .footer .footer__four h3 {
+    padding-left: 4.3em;
+    padding: 0.5em 0em 0em 4.3em;
+  }
+  .footer .footer__three {
+    display: none;
+  }
+  .footer .footer__two {
+    display: none;
+  }
+  .footer .footer__copyright {
+    margin-top: -3.2em;
+  }
+  footer {
+    margin-top: 6.1em;
+  }
+}
+@media (min-width: 810px) and (max-width: 830px) {
+  .mobile-menu {
+    display: block !important;
+  }
+  .sidebar {
+    display: none;
+  }
+  .header__slide__part__one .contact {
+    display: none;
+  }
+  .header h1 {
+    margin-top: 2.5em;
+    padding-top: 2em;
+    text-align: center;
+    font-size: 1.3em;
+  }
+}
+@media (max-width: 767px) {
+  .content {
+    width: 100%;
+  }
+  .content .header__slide .one {
+    background-position-x: 86%;
+  }
+  .sidebar {
+    display: none;
+  }
+  .header p {
+    font-size: 2.4em;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0.7em;
+    width: 78%;
+    line-height: 1.2;
+  }
+  .header p:nth-child(3) {
+    text-align: center;
+    font-size: 1.6em;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0.59em;
+  }
+  .header h1 {
+    font-size: 1em;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 3em;
+    width: 81%;
+    line-height: 1.5;
+  }
+  .main_head-hp1 .main_head__buttons .main_head__buttons__btn-main {
+    font-size: 1em;
+    left: 13.1em;
+    top: 9.6em;
+  }
+  .contact {
+    display: none;
+  }
+  .glav {
+    margin-top: 3.8em;
+  }
+  .glav h2 {
+    font-size: 2.4em;
+    line-height: 1.2;
+  }
+  /* >>>>>>>>>>>>>> :: Philosophy Area CSS <<<<<<<<<<<<<<< */
+  .philosophy .row {
+    padding-top: 1.8em;
+  }
+  .philosophy .phylosophy__left p {
+    font-size: 0.94em;
+  }
+  .philosophy .phylosophy__left figure {
+    padding-left: 0;
+  }
+  .philosophy .phylosophy__left figure:nth-of-type(1) {
+    padding-top: 2.3em;
+  }
+  .philosophy .phylosophy__left h4 {
+    font-size: 1.07em;
+  }
+  .philosophy .phylosophy__right img {
+    margin-left: 0;
+  }
+  /* >>>>>>>>>>>>>> :: Offer Area CSS <<<<<<<<<<<<<<< */
+  .offer {
+    padding-top: 4.2em;
+  }
+  .offer .offer__left .offer__left-substrate {
+    display: none;
+  }
+  .offer .offer__right .offer__right-substrate:before {
+    display: none;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content {
+    text-align: center;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content h3 {
+    font-size: 1.4em;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content p:nth-child(2) {
+    font-size: 2.5em;
+    line-height: 1.1;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content p:nth-child(3) {
+    font-size: 1.2em;
+    margin-top: 1.35em;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content p:nth-child(4) {
+    width: 68%;
+    padding-top: 2.2em;
+    margin: 0 auto;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content a {
+    margin: 3em 0em 2.8em 0em;
+  }
+  /* >>>>>>>>>>>>>> :: Features Area CSS <<<<<<<<<<<<<<< */
+  .features figure {
+    margin-bottom: -1.2em;
+  }
+  .features .features__row {
+    background: none;
+    padding-top: 2.15em;
+  }
+  .features .glav {
+    margin-top: 3.8em;
+  }
+  .features span {
+    width: 3em;
+    height: 3em;
+  }
+  .features span i {
+    font-size: 1.7em;
+  }
+  .features h3 {
+    padding-left: 0em;
+  }
+  .features p {
+    text-align: left;
+    padding-bottom: 1.2em;
+  }
+  .features .features__left figure {
+    padding-left: 12em;
+  }
+  .features .features__left figure:first-child {
+    padding-left: 12em;
+  }
+  .features .features__left figure:nth-child(2) {
+    padding-left: 12em;
+  }
+  .features .features__left span {
+    left: -4.2em;
+    top: -6.3em;
+  }
+  .features .features__right {
+    display: block;
+  }
+  .features .features__right span {
+    left: -4.2em;
+    top: -6.3em;
+  }
+  .features .features__right figure {
+    padding-left: 12em;
+  }
+  .features .features__right figure:first-child {
+    padding-left: 12em;
+  }
+  .features .features__right figure:nth-child(2) {
+    padding-left: 12em;
+  }
+  .features .features__right figure:nth-child(3) {
+    margin-right: 0;
+  }
+  /* >>>>>>>>>>>>>> :: Price Area CSS <<<<<<<<<<<<<<< */
+  .price {
+    height: 100%;
+  }
+  .price figure {
+    margin-bottom: 1em;
+  }
+  .price span {
+    font-size: 2.8em;
+    padding-top: 0.7em;
+  }
+  .price span:after {
+    margin: 0.34em auto;
+  }
+  .price p {
+    font-size: 0.94em;
+    padding: 2.5em 3em;
+    padding-top: 1.7em;
+  }
+  .price a {
+    font-size: 1.5em;
+  }
+  .price .price__left {
+    padding-top: 1em;
+  }
+  .price .price__left figure {
+    left: 0;
+    top: 0;
+  }
+  .price .price__right figure {
+    left: 0;
+    top: 0;
+  }
+  .price .price__center p {
+    padding-bottom: 2.3em;
+  }
+  /* >>>>>>>>>>>>>> :: Classes Area CSS <<<<<<<<<<<<<<< */
+  .classes {
+    margin-bottom: 0;
+  }
+  .classes figure {
+    margin: 0em 0em 1em 0em;
+    width: 100%;
+  }
+  .classes .classes__img {
+    top: 0;
+  }
+  .classes .classes_main_figure {
+    margin-left: 0;
+    width: 100%;
+  }
+  .classes .classes__glav {
+    margin-top: 2.8em;
+  }
+  .classes .row {
+    padding-top: 2.1em;
+  }
+  /* >>>>>>>>>>>>>> :: Trainers Area CSS <<<<<<<<<<<<<<< */
+  .trainers .glav {
+    margin-top: 2.84em;
+  }
+  .trainers .trainers__left,
+  .trainers .trainers__right {
+    text-align: center;
+  }
+  .trainers .trainers__left {
+    margin-top: -3.1em;
+  }
+  .trainers ul {
+    justify-content: center;
+  }
+  .trainers .trainers__left-photo {
+    margin-top: -5em;
+  }
+  .trainers .trainers__left-cont {
+    padding-top: 0;
+    margin-top: -0.85em;
+  }
+  .trainers .trainers-first {
+    margin-top: 3.1em;
+  }
+  /* >>>>>>>>>>>>>> :: Says Area CSS <<<<<<<<<<<<<<< */
+  .says {
+    height: 780px;
+    margin-top: -2.4em;
+    background-position-x: 50%;
+  }
+  .says .glav {
+    padding-top: 3.9em;
+  }
+  .says .glav h2:after {
+    display: none;
+  }
+  .says p {
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.7;
+    padding-top: 2.7em;
+  }
+  .says img {
+    padding-top: 2.3em;
+    width: 130px;
+  }
+  .says h4 {
+    font-size: 1.7em;
+    padding-top: 1.8em;
+  }
+  .says .says__main__nav {
+    margin-top: 3.81em;
+  }
+  /* >>>>>>>>>>>>>> :: News Area CSS <<<<<<<<<<<<<<< */
+  .news .row {
+    padding-top: 2.2em;
+  }
+  .news .news__main .news__main__top img {
+    height: 100%;
+    width: 100%;
+  }
+  .news .news__main .news__main__top span {
+    top: 24.3em;
+  }
+  .news .news__one,
+  .news .news__two {
+    padding-bottom: 1em;
+  }
+  .news .news__one,
+  .news .news__two,
+  .news .news__third {
+    width: 94%;
+    margin: 0 auto;
+  }
+  /* >>>>>>>>>>>>>> :: Map Area CSS <<<<<<<<<<<<<<< */
+  .map {
+    margin-top: 4.3em;
+  }
+  footer {
+    margin-top: 4.3em;
+  }
+  footer .footer__one p {
+    font-size: 1em;
+  }
+  footer .footer__one ul {
+    justify-content: center;
+  }
+  footer .footer__one ul li {
+    margin: 2.63em 0em 3.06em 0.28em;
+  }
+  footer .footer__one figure {
+    justify-content: center;
+  }
+  footer .footer__two {
+    display: none;
+  }
+  footer .footer__three {
+    display: none;
+  }
+  footer .footer__four .row {
+    padding-top: 2.19em;
+  }
+  footer .footer__four .row:last-child {
+    padding-bottom: 3.2em;
+  }
+  footer .footer__four h3 {
+    text-align: center;
+  }
+  footer .footer__four h3:after {
+    margin: 0.66em 0em 0em 9.7em;
+  }
+  footer .footer__four p {
+    font-size: 1em;
+  }
+  footer .footer__four .footer__four__left {
+    max-width: 10%;
+    padding-left: 12.2em;
+  }
+  footer .footer__copyright p {
+    line-height: 1.6;
+    padding: 1.46em 0em 1.46em 0em;
+  }
+}
+@media (min-width: 560px) and (max-width: 570px) {
+  .main_head-hp1 .main_head__buttons .main_head__buttons__btn-main {
+    left: 10.1em;
+  }
+  .trainers .trainers__left-cont {
+    margin-top: 2.15em;
+  }
+  .says {
+    height: 740px;
+  }
+}
+@media (max-width: 440px) {
+  .content {
+    width: 100%;
+  }
+  .content .header__slide .one {
+    background-position-x: 86%;
+  }
+  .sidebar {
+    display: none;
+  }
+  .header p {
+    font-size: 2.4em;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2.5em;
+    width: 78%;
+    line-height: 1.2;
+  }
+  .header p:nth-child(3) {
+    text-align: center;
+    font-size: 1.6em;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0.59em;
+  }
+  .header h1 {
+    font-size: 1em;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 3em;
+    width: 81%;
+    line-height: 1.5;
+  }
+  .main_head-hp1 .main_head__buttons {
+    top: -30.7%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .main_head-hp1 .main_head__buttons .main_head__buttons__btn-main {
+    font-size: 1em;
+    position: unset;
+    padding: 0.96em 2em;
+  }
+  .contact {
+    display: none;
+  }
+  .glav {
+    margin-top: 3.8em;
+  }
+  .glav h2 {
+    font-size: 2.4em;
+    line-height: 1.2;
+  }
+  /* >>>>>>>>>>>>>> :: Philosophy Area CSS <<<<<<<<<<<<<<< */
+  .philosophy .row {
+    padding-top: 1.8em;
+  }
+  .philosophy .phylosophy__left p {
+    font-size: 0.94em;
+  }
+  .philosophy .phylosophy__left figure {
+    padding-left: 0;
+  }
+  .philosophy .phylosophy__left figure:nth-of-type(1) {
+    padding-top: 2.3em;
+  }
+  .philosophy .phylosophy__left h4 {
+    font-size: 1.07em;
+  }
+  .philosophy .phylosophy__right img {
+    margin-left: 0;
+  }
+  /* >>>>>>>>>>>>>> :: Offer Area CSS <<<<<<<<<<<<<<< */
+  .offer {
+    padding-top: 4.2em;
+  }
+  .offer .offer__left .offer__left-substrate {
+    display: none;
+  }
+  .offer .offer__right .offer__right-substrate:before {
+    display: none;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content {
+    text-align: center;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content h3 {
+    font-size: 1.4em;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content p:nth-child(2) {
+    font-size: 2.5em;
+    line-height: 1.1;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content p:nth-child(3) {
+    font-size: 1.2em;
+    margin-top: 1.35em;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content p:nth-child(4) {
+    width: 68%;
+    padding-top: 2.2em;
+    margin: 0 auto;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content a {
+    margin: 3em 0em 2.8em 0em;
+  }
+  /* >>>>>>>>>>>>>> :: Features Area CSS <<<<<<<<<<<<<<< */
+  .features figure {
+    margin-bottom: -1.2em;
+  }
+  .features .features__row {
+    background: none;
+    padding-top: 2.15em;
+  }
+  .features .glav {
+    margin-top: 3.8em;
+  }
+  .features span {
+    width: 3em;
+    height: 3em;
+  }
+  .features span i {
+    font-size: 1.7em;
+  }
+  .features h3 {
+    padding-left: 0em;
+  }
+  .features p {
+    text-align: left;
+    padding-bottom: 1.2em;
+  }
+  .features .features__left figure {
+    padding-left: 5em;
+  }
+  .features .features__left figure:first-child {
+    padding-left: 5em;
+  }
+  .features .features__left figure:nth-child(2) {
+    padding-left: 5em;
+  }
+  .features .features__left span {
+    left: -4.2em;
+    top: -6.3em;
+  }
+  .features .features__right {
+    display: block;
+  }
+  .features .features__right span {
+    left: -4.2em;
+    top: -6.3em;
+  }
+  .features .features__right figure {
+    padding-left: 5em;
+  }
+  .features .features__right figure:first-child {
+    padding-left: 5em;
+  }
+  .features .features__right figure:nth-child(2) {
+    padding-left: 5em;
+  }
+  .features .features__right figure:nth-child(3) {
+    margin-right: 0;
+  }
+  /* >>>>>>>>>>>>>> :: Price Area CSS <<<<<<<<<<<<<<< */
+  .price {
+    height: 100%;
+  }
+  .price figure {
+    margin-bottom: 1em;
+  }
+  .price span {
+    font-size: 2.8em;
+    padding-top: 0.7em;
+  }
+  .price span:after {
+    margin: 0.34em auto;
+  }
+  .price p {
+    font-size: 0.94em;
+    padding: 2.5em 3em;
+    padding-top: 1.7em;
+  }
+  .price a {
+    font-size: 1.5em;
+  }
+  .price .price__left {
+    padding-top: 1em;
+  }
+  .price .price__left figure {
+    left: 0;
+    top: 0;
+  }
+  .price .price__right figure {
+    left: 0;
+    top: 0;
+  }
+  .price .price__center p {
+    padding-bottom: 2.3em;
+  }
+  /* >>>>>>>>>>>>>> :: Classes Area CSS <<<<<<<<<<<<<<< */
+  .classes {
+    margin-bottom: 0;
+  }
+  .classes .row {
+    padding-top: 2.2em;
+  }
+  .classes .classes__left,
+  .classes .classes__center,
+  .classes .classes__right {
+    height: 473px;
+    margin-bottom: 20px;
+  }
+  .classes .classes__right {
+    margin-bottom: 46px;
+  }
+  .classes .classes__glav {
+    margin-top: 3.8em;
+  }
+  .classes figure {
+    margin: 0em auto 1em auto !important;
+  }
+  .classes .classes__figure .classes__figure__content p {
+    padding: 2.21em 1.11em 3.2em 1.11em;
+    font-size: 0.94em;
+  }
+  .classes .classes__figure .classes__figure__content h3 {
+    font-size: 1.8em;
+  }
+  .classes .classes__img img {
+    height: 100%;
+  }
+  .classes .classes__img span {
+    top: 84.65%;
+    position: absolute;
+  }
+  /* >>>>>>>>>>>>>> :: Trainers Area CSS <<<<<<<<<<<<<<< */
+  .trainers .glav {
+    margin-top: 1.1em;
+  }
+  .trainers .trainers__left,
+  .trainers .trainers__right {
+    text-align: center;
+  }
+  .trainers .trainers__left {
+    margin-top: -3.1em;
+  }
+  .trainers ul {
+    justify-content: center;
+  }
+  .trainers .trainers__left-photo {
+    margin-top: -5em;
+  }
+  .trainers .trainers__left-photo .trainers__left-photo__hidden img {
+    width: 80%;
+  }
+  .trainers .trainers__left-cont {
+    padding: 3.31em 1.31em 6.62em 1.69em;
+  }
+  .trainers .trainers-first {
+    margin-top: 3.1em;
+  }
+  .trainers p {
+    font-size: 0.94em;
+  }
+  /* >>>>>>>>>>>>>> :: Says Area CSS <<<<<<<<<<<<<<< */
+  .says {
+    margin-top: -2.4em;
+    background-position-x: 50%;
+    height: 870px;
+  }
+  .says .glav {
+    padding-top: 3.9em;
+  }
+  .says .glav h2:after {
+    display: none;
+  }
+  .says p {
+    font-size: 0.94em;
+    text-align: center;
+    line-height: 1.7;
+    padding-top: 2.7em;
+  }
+  .says img {
+    padding-top: 2.3em;
+    width: 130px;
+  }
+  .says h4 {
+    font-size: 1.7em;
+    padding-top: 1.8em;
+  }
+  .says .says__main__nav {
+    margin-top: 3.81em;
+  }
+  /* >>>>>>>>>>>>>> :: News Area CSS <<<<<<<<<<<<<<< */
+  .news .row {
+    padding-top: 2.2em;
+  }
+  .news .news__main p {
+    font-size: 0.94em;
+  }
+  .news .news__main .news__main__top img {
+    height: 100%;
+    width: 100%;
+  }
+  .news .news__main .news__main__top span {
+    top: 15em;
+  }
+  .news .news__one,
+  .news .news__two {
+    padding-bottom: 1em;
+  }
+  .news .news__one,
+  .news .news__two,
+  .news .news__third {
+    width: 94%;
+    margin: 0 auto;
+  }
+  /* >>>>>>>>>>>>>> :: Map Area CSS <<<<<<<<<<<<<<< */
+  .map {
+    margin-top: 4.3em;
+  }
+  footer {
+    margin-top: 4.3em;
+  }
+  footer .footer__one p {
+    font-size: 0.94em;
+  }
+  footer .footer__one ul {
+    justify-content: center;
+  }
+  footer .footer__one ul li {
+    margin: 2.63em 0em 5.06em 0.28em;
+  }
+  footer .footer__two {
+    display: none;
+  }
+  footer .footer__three {
+    display: none;
+  }
+  footer .footer__four .row {
+    padding-top: 2.19em;
+  }
+  footer .footer__four .row:last-child {
+    padding-bottom: 3.2em;
+  }
+  footer .footer__four h3 {
+    text-align: center;
+  }
+  footer .footer__four h3:after {
+    margin: 0.66em 0em 0em 4.7em;
+  }
+  footer .footer__four p {
+    font-size: 0.94em;
+  }
+  footer .footer__four .footer__four__left {
+    max-width: 10%;
+    padding-left: 4.2em;
+  }
+  footer .footer__copyright p {
+    line-height: 1.6;
+    padding: 1.46em 0em 1.46em 0em;
+    font-size: 0.74em;
+  }
+}
+@media (min-width: 322px) and (max-width: 360px) {
+  .news .news__main .news__main__top span {
+    top: 14.5em;
+  }
+}
+@media (max-width: 321px) {
+  .news .news__main .news__main__top span {
+    top: 12.5em;
+  }
+}

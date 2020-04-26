@@ -1,0 +1,3078 @@
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    :: Template name: ADIO
+    :: Template URI:
+    :: Description: ADIO full template run the business. It is creative, minimal and clean design. It is ideal for any start-up business, martial arts schools who need a professional way to showcase their projects and services.
+    :: Template Author: Vasiliy Kushnerev
+    :: Template Author URI:
+    :: Version: 1.1.0
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>> :: Import All CSS <<<<<<<<<<<<<<< */
+@import 'bootstrap-grid.min.css';
+@import 'reset.css';
+@import 'all.min.css';
+@import 'aos.css';
+@import 'slick.css';
+@import 'slick-theme.css';
+/* Flexbox
+/* ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## ## */
+/* These are the conditional mixins for the different syntax for IE10 Flexbox*/
+/* >>>>>>>>>>>>>> ::Common CSS <<<<<<<<<<<<<<< */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+body,
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #888;
+  font-size: 1em;
+  color: #363636;
+}
+a {
+  font-family: 'Poppins', sans-serif;
+  color: #363636;
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> :: HOMEPAGE<<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+/* >>>>>>>>>>>>>> :: 1.0 Main Area CSS <<<<<<<<<<<<<<< */
+.main,
+.container-fluid {
+  padding: 0;
+}
+.glav {
+  margin-top: 8.125em;
+  text-align: center;
+}
+.glav h2 {
+  font-size: 3.81em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: #ff4150;
+}
+.glav h2::after {
+  content: url("../images/line.jpg");
+  display: block;
+}
+.phylosophy__row,
+.features__row,
+.classes__row {
+  padding-top: 4.65em;
+}
+.mobile-menu {
+  height: auto;
+  background: #ff4150;
+  position: fixed;
+  z-index: 5;
+}
+.mobile-menu .mobile-menu__left {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 50%;
+}
+.mobile-menu .mobile-menu__left p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 1.25em;
+  color: #363636;
+  padding: 0.9em 0em 0.9em 1em;
+}
+.mobile-menu .mobile-menu__right {
+  max-width: 50%;
+  position: relative;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+.mobile-menu .mobile-menu__right .toggle-switch {
+  width: 25px;
+  height: 17px;
+  cursor: pointer;
+  position: relative;
+  margin: 0.5em 1.6em;
+}
+.mobile-menu .mobile-menu__right .toggle-switch:before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 7px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #363636;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.mobile-menu .mobile-menu__right .toggle-switch:after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 21px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #363636;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.mobile-menu .mobile-menu__right .toggle-switch span {
+  display: block;
+  position: absolute;
+  top: 14px;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: #363636;
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+.mobile-menu .mobile-menu__right .toggleActive {
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.mobile-menu .mobile-menu__right .toggleActive span {
+  opacity: 0;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.mobile-menu .mobile-menu__right .toggleActive:before {
+  transform: translateY(7px) rotate(45deg);
+  -webkit-transform: translateY(7px) rotate(45deg);
+  -moz-transform: translateY(7px) rotate(45deg);
+  -ms-transform: translateY(7px) rotate(45deg);
+  transform-origin: center center;
+  -webkit-transform-origin: center center;
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.mobile-menu .mobile-menu__right .toggleActive:after {
+  transform: translateY(-7px) rotate(-45deg);
+  -webkit-transform: translateY(-7px) rotate(-45deg);
+  -moz-transform: translateY(-7px) rotate(-45deg);
+  -ms-transform: translateY(-7px) rotate(-45deg);
+  transform-origin: center center;
+  -webkit-transform-origin: center center;
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.mobile-menu .toggle-block .toggle-block-container {
+  display: none;
+}
+.mobile-menu .toggle-block .toggle-block-container .main__nav li {
+  border-bottom: 1px solid #cccccc2e;
+}
+.mobile-menu .toggle-block .toggle-block-container .main__nav li a {
+  padding: 15px 21px;
+  display: block;
+  position: relative;
+}
+.mobile-menu .toggle-block .toggle-block-container .main__nav li a span {
+  font-size: 0.875em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  color: #fff;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.mobile-menu .toggle-block .toggle-block-container .main__nav li a .active {
+  color: #363636;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.mobile-menu .toggle-block .toggle-block-container .main__nav li a p {
+  position: absolute;
+  top: 50%;
+  right: 9px;
+  padding: 13px 16px;
+  margin-top: -20px;
+  color: #fff;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.mobile-menu .toggle-block .toggle-block-container .main__nav li a .icons__active {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.mobile-menu .toggle-block .toggle-block-container .main__nav li .second__nav {
+  display: none;
+}
+.mobile-menu .toggle-block .toggle-block-container .main__nav li .second__nav li a {
+  padding-left: 3em;
+}
+.mobile-menu .toggle-block .toggle-block-container .contact {
+  display: block;
+}
+.mobile-menu .toggle-block .toggle-block-container .contact .contact__phone,
+.mobile-menu .toggle-block .toggle-block-container .contact .contact__mail {
+  padding-left: 1em;
+}
+.mobile-menu .toggle-block .toggle-block-container .contact .contact__phone li,
+.mobile-menu .toggle-block .toggle-block-container .contact .contact__mail li {
+  font-size: 1em;
+  padding: 2.1em 0 0 0.6em;
+  font-weight: 500;
+}
+.mobile-menu .toggle-block .toggle-block-container .contact .contact__phone li:first-child,
+.mobile-menu .toggle-block .toggle-block-container .contact .contact__mail li:first-child {
+  color: #fff;
+  font-size: 1em;
+  padding-top: 30px;
+}
+.mobile-menu .toggle-block .toggle-block-container .contact .contact__phone {
+  border-top: 1px solid #cccccc2e;
+}
+.mobile-menu .toggle-block .toggle-block-container .contact .contact__mail {
+  margin-top: -1em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #cccccc2e;
+}
+.clear {
+  height: 51px;
+  width: 100%;
+}
+/* >>>>>>>>>>>>>> :: 2.0 Header Area CSS <<<<<<<<<<<<<<< */
+.content {
+  width: 90.3%;
+}
+.content .header__slide {
+  height: 100vh;
+}
+.content .header__slide .header__slide__part__one {
+  height: 100vh;
+}
+.content .header__slide .one {
+  background: url("../images/snow.jpg") 50% 0 no-repeat;
+  background-size: cover;
+}
+.content .slick-prew,
+.content .slick-next {
+  position: relative;
+}
+.header {
+  position: relative;
+}
+.header h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.93em;
+  font-weight: 700;
+  margin: 7.52em 0 0 9.23em;
+  color: #ff4150;
+  word-break: normal;
+}
+.header p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.81em;
+  font-weight: 800;
+  color: #363636;
+  margin: 0.97em 0 0 1.95em;
+  word-break: normal;
+}
+.header p span {
+  color: #ff4150;
+}
+.header p:nth-child(3) {
+  margin: 0.59em 0 0 5.11em;
+}
+.contact {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.contact .contact__mail {
+  padding-left: 2em;
+}
+.contact .contact__phone {
+  padding-left: 4.875em;
+}
+.contact .contact__phone,
+.contact .contact__mail {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+.contact .contact__phone li,
+.contact .contact__mail li {
+  -ms-flex-direction: row;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  font-size: 1.25em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #363636;
+  padding: 2.5em 0 0 0.6em;
+}
+.contact .contact__phone li:first-child,
+.contact .contact__mail li:first-child {
+  font-size: 1.88em;
+  color: #ff4150;
+  padding-top: 1.36em;
+}
+.header-slide {
+  display: none;
+}
+.main_head-hp1 {
+  height: 100vh;
+  position: relative;
+}
+.main_head-hp1 .main_head__buttons {
+  position: absolute;
+  top: 33.3%;
+}
+.main_head-hp1 .main_head__buttons .main_head__buttons__btn-main {
+  background: #ff4150;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 1.78em;
+  padding: 0.64em 2em;
+  -webkit-border-radius: 0.1em;
+  -moz-border-radius: 0.1em;
+  border-radius: 0.1em;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  position: relative;
+  top: 11.2em;
+  left: 16em;
+}
+.main_head-hp1 .main_head__buttons .main_head__buttons__btn-main:hover {
+  background: #363636;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+/* >>>>>>>>>>>>>> :: 3.0 Sidebar Area CSS <<<<<<<<<<<<<<< */
+.sidebar {
+  width: 9.7%;
+  min-width: 125px;
+  max-width: 125px;
+  height: 100%;
+  z-index: 2;
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  -webkit-opacity: 0;
+  opacity: 0;
+  position: relative;
+  left: 0%;
+  -webkit-transition: all 0.6s ease 0s;
+  -moz-transition: all 0.6s ease 0s;
+  -ms-transition: all 0.6s ease 0s;
+  -o-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+  background: #ff4150;
+}
+.sidebar .sidebar__click {
+  width: 25px;
+  height: 25px;
+  display: none;
+  position: fixed;
+  z-index: 3;
+  left: 6%;
+  bottom: 0%;
+  background: #ff7271;
+  -webkit-transition: all 0.6s ease 0s;
+  -moz-transition: all 0.6s ease 0s;
+  -ms-transition: all 0.6s ease 0s;
+  -o-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+}
+.sidebar .sidebar__click i {
+  color: #fff;
+  font-size: 1.2em;
+  position: absolute;
+  top: 16%;
+  left: 29%;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+.sidebar__clear {
+  width: 9.7%;
+  min-width: 125px;
+  max-width: 125px;
+  background: #1da4e2;
+}
+.opened {
+  margin-left: -125px;
+}
+.opened .sidebar__click {
+  margin-left: -100px;
+  background: #ff4150;
+  -webkit-transition: all 0.6s ease 0s;
+  -moz-transition: all 0.6s ease 0s;
+  -ms-transition: all 0.6s ease 0s;
+  -o-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+}
+.opened i {
+  transform: rotate(-180deg);
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+.opened .navigation__second {
+  margin-left: -180%;
+}
+.navigation {
+  position: fixed;
+  height: 100%;
+  background: #ff4150;
+  width: 9.7%;
+  min-width: 125px;
+  max-width: 125px;
+}
+.navigation .navigation__top-nav {
+  padding: 2em 0 0 1.25em;
+}
+.navigation .navigation__top-nav p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  font-size: 1.25em;
+  color: #363636;
+}
+.navigation .navigation__top-nav li:first-child {
+  font-size: 1.55em;
+}
+.navigation .navigation__top-nav li:last-child {
+  padding-top: 1.2em;
+}
+.navigation .navigation__menu {
+  padding: 7.68em 0 0 1.25em;
+}
+.navigation .navigation__menu ul {
+  background: #ff4150;
+  position: absolute;
+  left: 50%;
+  top: -6%;
+  width: 160%;
+}
+.navigation .navigation__menu ul li {
+  text-align: center;
+  border-bottom: 1px solid #fff;
+  padding-top: 1.2em;
+  width: 100%;
+}
+.navigation .navigation__menu ul li a {
+  font-size: 0.94em;
+  font-weight: 500;
+  font-family: 'Quicksand', sans-serif;
+}
+.navigation .navigation__menu ul li:first-child {
+  padding-top: 1.1em;
+}
+.navigation .navigation__menu ul li:last-child {
+  padding-bottom: 1.1em;
+  border-bottom: none;
+}
+.navigation .navigation__menu li,
+.navigation .navigation__menu a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 1.06em;
+  padding-bottom: 1.27em;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+.navigation .navigation__menu li a:hover {
+  font-weight: 700;
+  color: #363636;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.navigation .navigation__menu li {
+  width: 200%;
+}
+.navigation .navigation__menu .navigation__second {
+  display: none;
+}
+.navigation .navigation__menu li:hover > ul {
+  display: block;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.navigation .social {
+  padding: 5.5em 0 0 1.25em;
+}
+.navigation .social li {
+  padding-bottom: 1em;
+}
+.navigation .social .social__btn-icon {
+  font-size: 1.125em;
+  color: #fff;
+  height: 2.22em;
+  width: 2.22em;
+  background: #e26161;
+  -webkit-border-radius: 0.17em;
+  -moz-border-radius: 0.17em;
+  border-radius: 0.17em;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.navigation .social .social__btn-icon:hover {
+  background: #363636;
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+}
+.slide_sidebar {
+  margin-left: 0px;
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  -webkit-transition: all 0.6s ease 0s;
+  -moz-transition: all 0.6s ease 0s;
+  -ms-transition: all 0.6s ease 0s;
+  -o-transition: all 0.6s ease 0s;
+  transition: all 0.6s ease 0s;
+}
+/* >>>>>>>>>>>>>> :: 4.0 Philosophy Area CSS <<<<<<<<<<<<<<< */
+.philosophy .phylosophy__line {
+  padding: 1.69em 0 0 33.25em;
+}
+.philosophy .phylosophy__left h4 {
+  font-size: 1.38em;
+  line-height: 31px;
+  font-weight: 700;
+}
+.philosophy .phylosophy__left p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+  font-weight: 500;
+  line-height: 26px;
+  padding-top: 2.13em;
+}
+.philosophy .phylosophy__left figure:nth-of-type(1) {
+  padding-top: 3em;
+}
+.philosophy .phylosophy__left figure {
+  padding: 2em 0 0 4em;
+}
+.philosophy .phylosophy__left figure h3 {
+  font-size: 1.06em;
+  font-weight: 700;
+  color: #ff4150;
+}
+.philosophy .phylosophy__left figure p {
+  padding-top: 1em;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 0.94em;
+  line-height: 23px;
+}
+.philosophy .phylosophy__right img {
+  margin: 5.2em 0em 0em 2.5em;
+}
+/* >>>>>>>>>>>>>> :: 5.0 Offer Area CSS <<<<<<<<<<<<<<< */
+.offer {
+  padding-top: 8em;
+}
+.offer .offer__left .offer__left-substrate {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  bottom: 2em;
+}
+.offer .offer__right .offer__right-substrate {
+  background: #ff4150;
+  position: relative;
+}
+.offer .offer__right .offer__right-substrate::before {
+  content: '';
+  display: block;
+  height: 99.9%;
+  width: 12em;
+  position: absolute;
+  left: -6em;
+  -webkit-transform: skew(-18deg);
+  -moz-transform: skew(-18deg);
+  transform: skew(-18deg);
+  background: #ff4150;
+}
+.offer .offer__right .offer__right-substrate__content {
+  position: relative;
+}
+.offer .offer__right .offer__right-substrate__content h3 {
+  font-size: 1.7em;
+  font-weight: 900;
+  padding-top: 2.2em;
+}
+.offer .offer__right .offer__right-substrate__content p:nth-child(2) {
+  font-size: 3.75em;
+  font-weight: 800;
+  padding-top: 0.81em;
+  color: #fff;
+}
+.offer .offer__right .offer__right-substrate__content p:nth-child(3) {
+  font-size: 1.37em;
+  font-weight: 800;
+  font-style: italic;
+  line-height: 1.2;
+  background: #363636;
+  color: #ff4150;
+  padding: 0.07em 0.32em;
+  margin-top: 2.35em;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.offer .offer__right .offer__right-substrate__content p:nth-child(4) {
+  font-size: 0.94em;
+  font-weight: 700;
+  line-height: 27px;
+  padding-top: 1em;
+  width: 62%;
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+}
+.offer .offer__right .offer__right-substrate__content a {
+  font-size: 1.06em;
+  font-weight: 500;
+  padding: 0.9em 2.82em;
+  margin: 1.88em 0em 2.8em 0em;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  color: #fff;
+  border: 2px solid #fff;
+}
+.offer .offer__right .offer__right-substrate__content a:hover {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #363636;
+  border-color: #363636;
+}
+/* >>>>>>>>>>>>>> :: 6.0 Features Area CSS <<<<<<<<<<<<<<< */
+.features .glav {
+  margin-top: 6.125em;
+}
+.features .features__row {
+  background: url(../images/karate-man2.jpg) 51% 102% no-repeat;
+  padding-top: 5.4em;
+}
+.features h3 {
+  font-size: 1.56em;
+  font-weight: 700;
+  font-style: italic;
+  color: #ff4150;
+}
+.features p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.94em;
+  font-weight: 700;
+  width: 13.77em;
+  line-height: 1.55em;
+  padding-top: 1.16em;
+}
+.features span {
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #363636;
+  width: 5.5em;
+  height: 5.5em;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.features i {
+  font-size: 2.6em;
+  color: #ff4150;
+}
+.features figure {
+  margin-bottom: 1.98em;
+}
+.features .features__left span {
+  position: relative;
+  left: 13.8em;
+  top: -5em;
+  z-index: 2;
+}
+.features .features__left figure:first-child {
+  padding-left: 6em;
+}
+.features .features__left figure:nth-child(2) {
+  padding-left: 3em;
+}
+.features .features__right {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: flex-end;
+  -webkit-align-items: flex-end;
+  align-items: flex-end;
+}
+.features .features__right span {
+  position: relative;
+  left: -6.8em;
+  top: -5em;
+  z-index: 2;
+}
+.features .features__right figure:first-child {
+  padding-right: 5em;
+}
+.features .features__right figure:nth-child(2) {
+  padding-right: 2em;
+}
+.features .features__right figure:nth-child(3) {
+  margin-right: -1em;
+}
+.features .features__span-red {
+  background: #ff4150;
+  color: #fff;
+}
+.features .features__span-red i {
+  color: #fff;
+}
+/* >>>>>>>>>>>>>> :: 7.0 Price Area CSS <<<<<<<<<<<<<<< */
+.price {
+  height: 500px;
+  text-align: center;
+}
+.price figure {
+  background: #e2dede;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.price .price__center h3,
+.price .price__center span,
+.price .price__center p,
+.price .price__center a {
+  color: #fff;
+}
+.price .price__center a {
+  border: 1.5px solid #363636;
+}
+.price .price__center a:hover {
+  color: #363636;
+  border: 1.5px solid #fff;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.price .price__center figure {
+  background: #ff4150;
+  position: relative;
+  z-index: 2;
+}
+.price .price__center span::after {
+  background: #363636;
+}
+.price .price__center p {
+  padding-bottom: 6em;
+}
+.price h3 {
+  font-size: 2em;
+  font-weight: 700;
+  font-style: italic;
+  padding-top: 1.87em;
+}
+.price span {
+  font-size: 3.125em;
+  font-weight: 800;
+  font-style: italic;
+  color: #ff4150;
+  padding-top: 0.92em;
+  display: block;
+}
+.price span::after {
+  content: '';
+  display: block;
+  width: 3em;
+  height: 1px;
+  background: #ff4150;
+  margin: 0.34em 0 0 1.9em;
+}
+.price p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.09em;
+  font-weight: 500;
+  line-height: 1.8em;
+  padding: 2.11em 3em;
+}
+.price a {
+  font-size: 2em;
+  font-weight: 500;
+  color: #363636;
+  border: 1.5px solid #ff4150;
+  padding: 0.59em 1.94em;
+  margin-bottom: 1.94em;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.price a:hover {
+  color: #ff4150;
+  border: 1.5px solid #363636;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.price .price__left figure {
+  position: relative;
+  left: 2em;
+  top: 2em;
+}
+.price .price__right figure {
+  position: relative;
+  right: 2em;
+  top: 2em;
+}
+/* >>>>>>>>>>>>>> :: 8.0 Classes Area CSS <<<<<<<<<<<<<<< */
+.classes {
+  margin-bottom: 384px;
+}
+.classes .classes_main_figure {
+  background: #dcc4c4;
+  height: 460px;
+  position: relative;
+  width: 95%;
+  margin-left: 1.37em;
+  background: url(../images/children.jpg) 50% 0 no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.classes .row {
+  padding-top: 5.2em;
+}
+.classes .classes__glav {
+  margin-top: 16.7em;
+}
+.classes .classes__left {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+  -webkit-justify-content: flex-end;
+  justify-content: flex-end;
+}
+.classes .classes__center {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.classes .classes__right {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+  -webkit-justify-content: flex-start;
+  justify-content: flex-start;
+}
+.classes .classes__figure {
+  background: #fff;
+  position: relative;
+  opacity: 0;
+  z-index: 2;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.classes .classes__figure .classes__figure__content {
+  position: relative;
+  left: -22%;
+  height: 389px;
+}
+.classes .classes__figure .classes__figure__content h3 {
+  font-size: 1.94em;
+  font-weight: 400;
+  padding: 2.44em 0em 0em 0.52em;
+  color: #ff4150;
+}
+.classes .classes__figure .classes__figure__content p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
+  padding: 2.21em 1.11em 2.5em 1.11em;
+  margin-bottom: -0.5em;
+  line-height: 1.7em;
+}
+.classes .classes__figure:hover {
+  position: relative;
+  opacity: 0.9;
+}
+.classes .classes__figure:hover .classes__figure__content {
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  position: relative;
+  left: 0%;
+}
+.classes .classes__figure a {
+  font-size: 1.06em;
+  font-weight: 500;
+  font-style: italic;
+  color: #fff;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  background: #363636;
+  padding: 1.23em 2.59em;
+  margin: 2.88em 7.65em 2.35em 0.88em;
+}
+.classes .classes__img span {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.69em;
+  font-weight: 700;
+  font-style: italic;
+  color: #fff;
+  display: block;
+  background: #ff4150;
+  width: 100%;
+  text-align: center;
+  padding: 1em 0em 1.04em 0em;
+  position: absolute;
+  bottom: 0;
+}
+.classes .classes__img a:hover span {
+  background: #363636;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+/* >>>>>>>>>>>>>> :: 9.0 Trainers Area CSS <<<<<<<<<<<<<<< */
+.trainers .glav {
+  margin-top: -15.9em;
+}
+.trainers .row {
+  padding-top: 1.7em;
+}
+.trainers h3 {
+  font-size: 1.56em;
+  font-weight: 700;
+  font-style: italic;
+  color: #ff4150;
+}
+.trainers h4 {
+  font-size: 0.94em;
+  font-weight: 700;
+  padding-top: 0.66em;
+}
+.trainers p {
+  font-size: 1em;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  line-height: 1.7;
+  padding-top: 1.69em;
+  white-space: nowrap;
+}
+.trainers ul {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 2.37em;
+}
+.trainers i {
+  font-size: 1.5em;
+  color: #fff;
+  background: #ff4150;
+  width: 2.2em;
+  height: 2.2em;
+  padding-top: 0.5em;
+}
+.trainers i:hover {
+  background: #363636;
+  color: #fff;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+.trainers .btn:hover {
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.trainers .trainers__left-photo .trainers__left-photo__hidden {
+  position: relative;
+}
+.trainers .trainers__left-photo .trainers__left-photo__hidden .trainers__left-photo__hidden__content {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.trainers .trainers__left-photo .trainers__left-photo__hidden .trainers__left-photo__hidden__content:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  z-index: 2;
+  border-right: 1px solid #ff4b4a;
+  border-bottom: 2px solid #ff4b4a;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.trainers .trainers__left-photo .trainers__left-photo__hidden .trainers__left-photo__hidden__content a {
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  z-index: 4;
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  -webkit-opacity: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.trainers .trainers__left-photo .trainers__left-photo__hidden .trainers__left-photo__hidden__content a i {
+  font-size: 2em;
+  background: none;
+  color: #ff4150;
+}
+.trainers .trainers__left-photo:hover {
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.trainers .trainers__left-photo:hover .trainers__left-photo__hidden__content:after {
+  opacity: 0.9;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.trainers .trainers__left-photo:hover .trainers__left-photo__hidden__content a {
+  -moz-opacity: 1;
+  -khtml-opacity: 1;
+  -webkit-opacity: 1;
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -ms-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  top: 43%;
+}
+.trainers .trainers__left-cont {
+  padding: 3.31em 1.31em 6.62em 1.69em;
+}
+/* >>>>>>>>>>>>>> :: 10.0 Says Area CSS <<<<<<<<<<<<<<< */
+.says {
+  height: 940px;
+  margin-top: 4.37em;
+  background: url("../images/fon-4.jpg") no-repeat;
+  background-size: cover;
+}
+.says .glav {
+  margin: 0;
+  padding-top: 8.125em;
+}
+.says img {
+  padding-top: 5.3em;
+  margin: 0 auto;
+  display: block;
+}
+.says h4 {
+  font-size: 1.87em;
+  padding-top: 1.73em;
+  text-align: center;
+}
+.says h4 span {
+  color: #ff4150;
+}
+.says p {
+  font-size: 1.125em;
+  line-height: 2;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  padding-top: 3.22em;
+}
+.says .says__main__nav {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  margin-top: 4.81em;
+}
+.says .says__main__nav div {
+  cursor: pointer;
+}
+.says .says__main__nav i {
+  font-size: 1.87em;
+  color: #fff;
+}
+.says .says__main__nav .slick-dots {
+  padding-top: 0.25em;
+  position: relative;
+  bottom: 0;
+}
+.says .says__main__nav .slick-dots .slick-active {
+  background: #ff4150;
+}
+.says .says__main__nav .slick-dots li {
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #fff;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+.says .says__main__nav .slick-dots li:first-child {
+  margin-left: 1.02em;
+}
+.says .says__main__nav .slick-dots li:last-child {
+  margin-right: 1.02em;
+}
+/* >>>>>>>>>>>>>> :: 11.0 News Area CSS <<<<<<<<<<< */
+.news .row {
+  padding-top: 5.3em;
+}
+.news .news__main {
+  background: #eceaea;
+  position: relative;
+  overflow: hidden;
+}
+.news .news__main img {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.news .news__main img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -ms-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.news .news__main .news__main__top span {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  font-size: 0.94em;
+  color: #fff;
+  background: #ff4150;
+  padding: 0.7em 0.63em;
+  position: absolute;
+  top: 16.5em;
+  left: 1.5em;
+}
+.news .news__main p {
+  font-size: 1em;
+  line-height: 1.56;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  padding: 2.44em 2.97em 4.47em 1.5em;
+}
+.news .news__main .news__fab {
+  position: absolute;
+  bottom: 6%;
+  right: 48%;
+  color: #ff4150;
+  font-size: 1.25em;
+}
+.news .news__main .news__comments__left,
+.news .news__main .news__comments__right {
+  padding: 2.47em 0em 0em 1.5em;
+}
+.news .news__main .news__comments__left i,
+.news .news__main .news__comments__right i {
+  color: #ff4150;
+  font-size: 0.875em;
+  padding-top: 0.2em;
+}
+.news .news__main .news__comments__left p,
+.news .news__main .news__comments__right p {
+  font-size: 0.875em;
+  font-weight: 700;
+  padding: 0em 0em 0em 0.7em;
+}
+.news .news__main a:hover i {
+  color: #363636;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+/* >>>>>>>>>>>>>> :: 12.0 Map Area CSS <<<<<<<<<<< */
+.map {
+  height: 800px;
+  margin-top: 8.2em;
+  background: #a9a6a6;
+  filter: grayscale(100%);
+}
+/* >>>>>>>>>>>>>> :: 13.0 Footer Area CSS <<<<<<<<<<< */
+footer {
+  margin-top: 8.1em;
+}
+footer h3 {
+  font-size: 1.38em;
+  font-weight: 700;
+  color: #ff4150;
+  padding: 0.2em 0em 0em 1.8em;
+}
+footer h3:after {
+  content: "";
+  display: block;
+  width: 3.88em;
+  height: 2.2px;
+  background: #363636;
+  margin: 0.66em 0em 0em 0.07em;
+}
+footer .footer__one figure {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .footer__one figure h4 {
+  font-size: 1.1em;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 1.3;
+  padding: 1.3em 0em 0em 0.5em;
+}
+footer .footer__one p {
+  font-size: 1.125em;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  line-height: 1.72;
+  padding-top: 1.75em;
+}
+footer .footer__one li {
+  background: #ff4150;
+  padding-left: 0.28em;
+  width: 2.5em;
+  height: 2.5em;
+  margin: 2.63em 0em 10.06em 0.28em;
+  -webkit-border-radius: 0.17em;
+  -moz-border-radius: 0.17em;
+  border-radius: 0.17em;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+footer .footer__one li i {
+  font-size: 1.125em;
+  color: #fff;
+  padding: 0.55em 0em 0em 0.43em;
+}
+footer .footer__one li:hover {
+  background: #363636;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+footer .footer__two ul {
+  padding-left: 2.7em;
+}
+footer .footer__two ul li:first-child {
+  padding-top: 3em;
+}
+footer .footer__two ul li {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1.88em;
+}
+footer .footer__two ul li a {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+footer .footer__two ul li a i {
+  font-size: 1.3em;
+  color: #ff4150;
+}
+footer .footer__two ul li a p {
+  font-size: 1.125em;
+  font-weight: 500;
+  padding: 0.2em 0em 0em 0.46em;
+}
+footer .footer__two ul li a:hover i {
+  color: #363636;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+footer .footer__two ul li a:hover p {
+  font-weight: 700;
+}
+footer .footer__three h3 {
+  padding-left: 0;
+}
+footer .footer__three .row {
+  padding-top: 1.81em;
+}
+footer .footer__three .footer__three-one {
+  padding-top: 3.2em;
+}
+footer .footer__three span {
+  font-size: 0.94em;
+  font-weight: 700;
+  padding-top: 0.37em;
+  display: block;
+}
+footer .footer__three p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.06em;
+  font-weight: 500;
+  line-height: 1.56;
+  padding-top: 0.68em;
+}
+footer .footer__three .footer__three__text {
+  padding-left: 0.9em;
+}
+footer .footer__four h3 {
+  padding-left: 0;
+}
+footer .footer__four i {
+  font-size: 1.3em;
+  color: #ff4150;
+  padding-top: 0.2em;
+}
+footer .footer__four .row {
+  padding-top: 3.19em;
+}
+footer .footer__four p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  line-height: 1.5;
+  padding-left: 0.2em;
+}
+footer .footer__copyright {
+  border-top: 1px solid #ddd;
+}
+footer .footer__copyright p {
+  text-align: center;
+  font-size: 0.94em;
+  padding: 2.46em 0em 2.46em 0em;
+  color: #333;
+}
+#foot {
+  margin-top: 10.125em;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> RESPONSIVE <<<<<<<<<<<<<<<<<<<<
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+@media (min-width: 1680px) {
+  .clear {
+    display: none;
+  }
+}
+@media (min-width: 1360px) and (max-width: 1450px) {
+  .sidebar .sidebar__click {
+    left: 7%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1290px) {
+  .sidebar .sidebar__click {
+    left: 7.9%;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1679px) {
+  body {
+    overflow-x: hidden;
+  }
+  .clear {
+    display: none;
+  }
+  .header h1 {
+    font-size: 1.8em;
+    margin: 4.7em 0 0 7.4em;
+  }
+  .header p {
+    margin: 1.4em 0 0 1.29em;
+    font-size: 3.4em;
+  }
+  .header p:nth-child(3) {
+    margin: 0.59em 0 0 1.29em;
+  }
+  .header-slide .header-top-main {
+    height: 81px;
+  }
+  .header-slide .header-top-main .header-top .header-top__navigation {
+    padding: 2em 0em 0em 4em;
+  }
+  .header-slide .header-top-main .header-top .header-top__navigation li a {
+    font-size: 1em;
+  }
+  .header-slide .header-top-main .header-top .header-top__logo:before {
+    position: absolute;
+    top: 14%;
+    left: 3%;
+    z-index: 2;
+  }
+  .header-slide .header-top-main .header-top .header-top__logo li {
+    z-index: 3;
+  }
+  .header-slide .header-top-main .header-top .header-top__logo li p {
+    padding: 0;
+    position: relative;
+    left: 80%;
+    top: 24%;
+    font-size: 1.7em;
+  }
+  .header-slide .header-top-main .header-top .header-top__logo li img {
+    position: relative;
+    left: 54%;
+    top: -16%;
+  }
+  .content {
+    width: 80%;
+  }
+  .content .header__slide .header__slide__part__one {
+    background-position: 69%;
+  }
+  .main_head-hp1 .main_head__buttons {
+    top: 37.3%;
+  }
+  .main_head-hp1 .main_head__buttons .main_head__buttons__btn-main {
+    font-size: 1.3em;
+    left: 148%;
+  }
+  .contact .contact__phone {
+    padding-left: 3.8em;
+  }
+  .contact .contact__phone li {
+    font-size: 1.17em;
+  }
+  .contact .contact__phone li:first-child {
+    font-size: 1.58em;
+    padding-top: 1.58em;
+  }
+  .contact .contact__mail li {
+    font-size: 1.17em;
+  }
+  .contact .contact__mail li:first-child {
+    padding-top: 1.58em;
+    font-size: 1.58em;
+  }
+  .navigation .navigation__top-nav p {
+    font-size: 1em;
+  }
+  .navigation .navigation__top-nav img {
+    height: 98px;
+  }
+  .navigation .navigation__menu {
+    padding: 2em 0 0 1.25em;
+  }
+  .navigation .navigation__menu a {
+    font-size: 1em;
+  }
+  .navigation .social {
+    padding: 0.3em 0 0 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navigation .social .social__btn-icon {
+    height: 2em;
+    width: 2em;
+    font-size: 1.1em;
+  }
+  .navigation .social li {
+    padding: 0em 0em 0.7em 0.5em;
+  }
+  .glav h2 {
+    font-size: 3.2em;
+  }
+  .phylosophy__row,
+  .features__row,
+  .classes__row {
+    padding-top: 5em;
+  }
+  /* >>>>>>>>>>>>>> :: Philosophy Area CSS <<<<<<<<<<<<<<< */
+  .philosophy .glav {
+    margin-top: 6.125em;
+  }
+  .philosophy .phylosophy__left h4 {
+    font-size: 1.33em;
+  }
+  .philosophy .phylosophy__left p {
+    font-size: 0.94em;
+  }
+  .philosophy .phylosophy__left figure p {
+    font-size: 0.9em;
+  }
+  .philosophy .phylosophy__left figure h3 {
+    font-size: 1.02em;
+  }
+  .philosophy .phylosophy__right img {
+    margin: 5.2em 0em 0em -0.5em;
+  }
+  /* >>>>>>>>>>>>>> :: Offer Area CSS <<<<<<<<<<<<<<< */
+  .offer {
+    padding-top: 8em;
+  }
+  .offer .offer__left .offer__left-substrate {
+    bottom: 5em;
+  }
+  .offer .offer__right .offer__right-substrate__content h3 {
+    font-size: 1.5em;
+  }
+  .offer .offer__right .offer__right-substrate__content p:nth-child(2) {
+    font-size: 2.8em;
+  }
+  .offer .offer__right .offer__right-substrate__content p:nth-child(3) {
+    font-size: 1.2em;
+  }
+  .offer .offer__right .offer__right-substrate__content p:nth-child(4) {
+    font-size: 0.87em;
+    width: 86%;
+  }
+  .offer .offer__right .offer__right-substrate__content a {
+    font-size: 1em;
+  }
+  .offer .offer__right .offer__right-substrate:before {
+    height: 100.1%;
+    top: 0.07%;
+  }
+  /* >>>>>>>>>>>>>> ::  Features Area CSS <<<<<<<<<<<<<<< */
+  .features .glav {
+    margin-top: 1.1em;
+  }
+  .features .features__row {
+    background-size: 32% 89%;
+  }
+  /* >>>>>>>>>>>>>> ::  Price Area CSS <<<<<<<<<<<<<<< */
+  .price p {
+    font-size: 0.94em;
+  }
+  .price span {
+    font-size: 2.8em;
+  }
+  .price span:after {
+    margin: 0.34em 0 0 2.38em;
+  }
+  .price a {
+    font-size: 1.49em;
+  }
+  .price h3 {
+    font-size: 1.8em;
+  }
+  /* >>>>>>>>>>>>>> ::  Classes Area CSS <<<<<<<<<<<<<<< */
+  .classes .classes__figure .classes__figure__content p {
+    font-size: 1em;
+  }
+  .classes .classes__figure .classes__figure__content h3 {
+    font-size: 1.7em;
+  }
+  .classes .classes__glav {
+    margin-top: 7.2em;
+  }
+  .classes .row {
+    padding-top: 5.7em;
+  }
+  /* >>>>>>>>>>>>>> ::  Trainers Area CSS <<<<<<<<<<<<<<< */
+  .trainers {
+    margin-top: 0.1em;
+  }
+  .trainers .glav {
+    margin-top: -17.9em;
+  }
+  .trainers h3 {
+    font-size: 1.3em;
+  }
+  .trainers p {
+    font-size: 0.94em;
+  }
+  .trainers i {
+    width: 2em;
+    height: 2em;
+    font-size: 1.3em;
+  }
+  .trainers .trainers__left-cont {
+    padding-top: 4.68em;
+  }
+  .trainers .row {
+    padding-top: 2.1em;
+  }
+  .trainers .row-second {
+    margin-top: -6.6em;
+  }
+  /* >>>>>>>>>>>>>> ::  Saya Area CSS <<<<<<<<<<<<<<< */
+  .says {
+    margin-top: 2.6em;
+  }
+  .says p {
+    font-size: 1em;
+  }
+  .says h4 {
+    font-size: 1.6em;
+  }
+  /* >>>>>>>>>>>>>> ::  News Area CSS <<<<<<<<<<<<<<< */
+  .news .glav {
+    margin-top: 6.125em;
+  }
+  /* >>>>>>>>>>>>>> ::  Map Area CSS <<<<<<<<<<<<<<< */
+  .map {
+    margin-top: 6.2em;
+  }
+  footer {
+    margin-top: 6.3em;
+  }
+  footer .copyr {
+    margin-top: -3.8em;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  body {
+    overflow-x: hidden;
+  }
+  .clear {
+    display: none;
+  }
+  .header h1 {
+    font-size: 1.7em;
+    margin: 6em 0 0 7.3em;
+  }
+  .header p {
+    margin: 1.4em 0 0 1.1em;
+    font-size: 3.2em;
+  }
+  .header p:nth-child(3) {
+    margin: 0.59em 0 0 1.1em;
+  }
+  .header-slide .header-top-main {
+    height: 81px;
+  }
+  .header-slide .header-top-main .header-top .header-top__navigation {
+    padding: 2em 0em 0em 4em;
+  }
+  .header-slide .header-top-main .header-top .header-top__navigation li a {
+    font-size: 1em;
+  }
+  .header-slide .header-top-main .header-top .header-top__logo:before {
+    position: absolute;
+    top: 14%;
+    left: 3%;
+    z-index: 2;
+  }
+  .header-slide .header-top-main .header-top .header-top__logo li {
+    z-index: 3;
+  }
+  .header-slide .header-top-main .header-top .header-top__logo li p {
+    padding: 0;
+    position: relative;
+    left: 80%;
+    top: 24%;
+    font-size: 1.7em;
+  }
+  .header-slide .header-top-main .header-top .header-top__logo li img {
+    position: relative;
+    left: 54%;
+    top: -16%;
+  }
+  .content {
+    width: 86.3%;
+  }
+  .content .header__slide .header__slide__part__one {
+    background-position: 71% 0;
+  }
+  .sidebar .sidebar__click {
+    left: 9.8%;
+  }
+  .main_head-hp1 .main_head__buttons {
+    top: 42.3%;
+  }
+  .main_head-hp1 .main_head__buttons .main_head__buttons__btn-main {
+    font-size: 1.3em;
+    left: 131%;
+  }
+  .contact .contact__phone {
+    padding-left: 2.875em;
+  }
+  .contact .contact__phone li {
+    font-size: 1.1em;
+  }
+  .contact .contact__phone li:first-child {
+    font-size: 1.5em;
+    padding-top: 1.55em;
+  }
+  .contact .contact__mail li {
+    font-size: 1.1em;
+  }
+  .contact .contact__mail li:first-child {
+    padding-top: 1.55em;
+    font-size: 1.5em;
+  }
+  .navigation .navigation__menu {
+    padding: 2.9em 0 0 1.25em;
+  }
+  .navigation .navigation__menu a {
+    font-size: 1em;
+  }
+  .navigation .social {
+    padding: 2.4em 0 0 0.5em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .navigation .social .social__btn-icon {
+    height: 2em;
+    width: 2em;
+    font-size: 1.1em;
+  }
+  .navigation .social li {
+    padding: 0em 0em 0.7em 0.5em;
+  }
+  .glav h2 {
+    font-size: 3.2em;
+  }
+  .phylosophy__row,
+  .features__row,
+  .classes__row {
+    padding-top: 5em;
+  }
+  /* >>>>>>>>>>>>>> :: Philosophy Area CSS <<<<<<<<<<<<<<< */
+  .philosophy .glav {
+    margin-top: 6.125em;
+  }
+  .philosophy .phylosophy__left h4 {
+    font-size: 1.33em;
+  }
+  .philosophy .phylosophy__left p {
+    font-size: 0.94em;
+  }
+  .philosophy .phylosophy__left figure p {
+    font-size: 0.9em;
+  }
+  .philosophy .phylosophy__left figure h3 {
+    font-size: 1.02em;
+  }
+  .philosophy .phylosophy__right img {
+    margin: 5.2em 0em 0em -0.5em;
+  }
+  /* >>>>>>>>>>>>>> :: Offer Area CSS <<<<<<<<<<<<<<< */
+  .offer .offer__left .offer__left-substrate {
+    bottom: 5em;
+  }
+  .offer .offer__right .offer__right-substrate__content h3 {
+    font-size: 1.5em;
+  }
+  .offer .offer__right .offer__right-substrate__content p:nth-child(2) {
+    font-size: 2.5em;
+  }
+  .offer .offer__right .offer__right-substrate__content p:nth-child(3) {
+    font-size: 1.2em;
+  }
+  .offer .offer__right .offer__right-substrate__content p:nth-child(4) {
+    font-size: 0.87em;
+    width: 86%;
+  }
+  .offer .offer__right .offer__right-substrate__content a {
+    font-size: 1em;
+  }
+  .offer .offer__right .offer__right-substrate:before {
+    height: 100.1%;
+    top: 0.07%;
+  }
+  /* >>>>>>>>>>>>>> ::  Features Area CSS <<<<<<<<<<<<<<< */
+  .features .glav {
+    margin-top: 5.5em;
+  }
+  .features .features__row {
+    background-size: 44% 89%;
+  }
+  .features span {
+    width: 4em;
+    height: 4em;
+  }
+  .features span i {
+    font-size: 1.8em;
+  }
+  .features p {
+    width: 12em;
+    text-align: center;
+  }
+  .features h3 {
+    text-align: center;
+  }
+  .features .features__left figure:first-child,
+  .features .features__left figure,
+  .features .features__left figure:nth-child(2) {
+    padding-left: 2em;
+  }
+  .features .features__left h3 {
+    text-align: center;
+    margin-left: -9.5em;
+  }
+  .features .features__left span {
+    left: 3.5em;
+    top: -10.5em;
+  }
+  .features figure {
+    position: relative;
+    top: 14%;
+    margin-bottom: 4em;
+  }
+  .features .features__right figure:first-child,
+  .features .features__right figure,
+  .features .features__right figure:nth-child(2) {
+    padding-right: 2em;
+  }
+  .features .features__right span {
+    left: 3.5em;
+    top: -10.5em;
+  }
+  /* >>>>>>>>>>>>>> ::  Price Area CSS <<<<<<<<<<<<<<< */
+  .price p {
+    font-size: 0.94em;
+  }
+  .price span {
+    font-size: 2.8em;
+  }
+  .price span:after {
+    margin: 0.34em 0 0 1.6em;
+  }
+  .price a {
+    font-size: 1.49em;
+  }
+  .price h3 {
+    font-size: 1.8em;
+  }
+  /* >>>>>>>>>>>>>> ::  Classes Area CSS <<<<<<<<<<<<<<< */
+  .classes {
+    margin-bottom: 385px;
+  }
+  .classes .classes__glav {
+    margin-top: 8.9em;
+  }
+  .classes .row {
+    padding-top: 1.7em;
+  }
+  .classes .classes__figure .classes__figure__content h3 {
+    font-size: 1.8em;
+  }
+  .classes .classes__figure .classes__figure__content p {
+    font-size: 1em;
+  }
+  /* >>>>>>>>>>>>>> ::  Trainers Area CSS <<<<<<<<<<<<<<< */
+  .trainers {
+    margin-top: 1.1em;
+  }
+  .trainers .glav {
+    margin-top: -17.9em;
+  }
+  .trainers h3 {
+    font-size: 1.3em;
+  }
+  .trainers p {
+    font-size: 0.94em;
+  }
+  .trainers i {
+    width: 2em;
+    height: 2em;
+    font-size: 1.3em;
+  }
+  .trainers .trainers__left-cont {
+    padding-top: 2.89em;
+  }
+  .trainers .row {
+    padding-top: 2.1em;
+  }
+  .trainers .row-second {
+    margin-top: -5.5em;
+  }
+  /* >>>>>>>>>>>>>> ::  Saya Area CSS <<<<<<<<<<<<<<< */
+  .says {
+    margin-top: -0.45em;
+  }
+  .says p {
+    font-size: 1em;
+  }
+  .says h4 {
+    font-size: 1.6em;
+  }
+  /* >>>>>>>>>>>>>> ::  News Area CSS <<<<<<<<<<<<<<< */
+  .news .glav {
+    margin-top: 6.125em;
+  }
+  .news .news__main img {
+    height: 100%;
+  }
+  /* >>>>>>>>>>>>>> ::  Map Area CSS <<<<<<<<<<<<<<< */
+  .map {
+    margin-top: 6.2em;
+  }
+  footer {
+    margin-top: 6.3em;
+  }
+  footer .footer__one p {
+    font-size: 1em;
+  }
+  footer .footer__two ul li a p {
+    font-size: 1em;
+  }
+  footer .footer__four p {
+    font-size: 1em;
+  }
+  footer .copyr {
+    margin-top: -3.8em;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+  .clear {
+    display: none;
+  }
+  .content {
+    width: 80%;
+  }
+  .content .header__slide .one,
+  .content .header__slide .two {
+    background-position-x: 86%;
+  }
+  .main_head-hp1 .main_head__buttons .main_head__buttons__btn-main {
+    font-size: 1.4em;
+    top: 14.8em;
+    left: 7em;
+  }
+  .header p {
+    font-size: 2.9em;
+    margin: 1.97em 0 0 1em;
+    text-align: center;
+    line-height: 1;
+  }
+  .header p:nth-child(3) {
+    margin: 0.59em 0 0 0.37em;
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 1.7em;
+    margin: 9.2em 0 0 1.8em;
+  }
+  .contact .contact__phone {
+    padding-left: 5.6em;
+  }
+  .contact .contact__phone li {
+    font-size: 1em;
+  }
+  .contact .contact__phone li:first-child {
+    font-size: 1.5em;
+    padding-top: 1.3em;
+  }
+  .contact .contact__mail li {
+    font-size: 1em;
+  }
+  .contact .contact__mail li:first-child {
+    font-size: 1.5em;
+    padding-top: 1.3em;
+  }
+  .sidebar .sidebar__click {
+    left: 13%;
+  }
+  .glav {
+    margin-top: 6.9em;
+  }
+  .glav h2 {
+    font-size: 3.2em;
+  }
+  /* >>>>>>>>>>>>>> :: Philosophy Area CSS <<<<<<<<<<<<<<< */
+  .philosophy .phylosophy__right {
+    margin: 0 auto;
+  }
+  .philosophy .phylosophy__right img {
+    margin: 5.2em 0em 0em 0em;
+  }
+  /* >>>>>>>>>>>>>> :: Offer Area CSS <<<<<<<<<<<<<<< */
+  .offer {
+    padding-top: 6.8em;
+  }
+  .offer .offer__right .offer__right-substrate:before {
+    display: none;
+  }
+  .offer .offer__right .offer__right-substrate__content {
+    text-align: center;
+  }
+  .offer .offer__right .offer__right-substrate__content p:nth-child(4) {
+    width: 62%;
+    margin: 0 auto;
+  }
+  .offer .offer__left {
+    display: none;
+  }
+  /* >>>>>>>>>>>>>> :: Features Area CSS <<<<<<<<<<<<<<< */
+  .features .features__row {
+    background: none;
+  }
+  .features .glav {
+    margin-top: 6.7em;
+  }
+  .features span {
+    width: 4em;
+    height: 4em;
+  }
+  .features span i {
+    font-size: 2em;
+  }
+  .features h3 {
+    padding-left: 1.4em;
+  }
+  .features p {
+    text-align: center;
+    padding-bottom: 1.2em;
+  }
+  .features .features__left {
+    margin: 5em 0em 0em 3em;
+  }
+  .features .features__left figure:first-child {
+    padding: 0;
+  }
+  .features .features__left figure:nth-child(2) {
+    padding: 0;
+  }
+  .features .features__left span {
+    left: 3.7em;
+    top: -12em;
+  }
+  .features .features__right {
+    margin: 5em 0em 0em 0em;
+  }
+  .features .features__right span {
+    left: 4.2em;
+    top: -12em;
+  }
+  .features .features__right figure:first-child {
+    padding: 0;
+  }
+  .features .features__right figure:nth-child(2) {
+    padding: 0;
+  }
+  .features .features__right figure:nth-child(2) h3 {
+    padding-left: 2em;
+  }
+  /* >>>>>>>>>>>>>> :: Price Area CSS <<<<<<<<<<<<<<< */
+  .price {
+    height: 100%;
+    margin-top: -1em;
+  }
+  .price figure {
+    margin-bottom: 1.5em;
+  }
+  .price .row {
+    justify-content: center;
+  }
+  .price h3 {
+    font-size: 1.6em;
+    padding-top: 1.5em;
+  }
+  .price .price__center p {
+    padding-bottom: 2.11em;
+  }
+  .price span {
+    font-size: 3em;
+    padding-top: 0.5em;
+  }
+  .price span:after {
+    display: none;
+  }
+  .price p {
+    font-size: 0.94em;
+  }
+  .price a {
+    font-size: 1.5em;
+  }
+  .price .price__left figure {
+    top: 0;
+    left: 0;
+  }
+  .price .price__right figure {
+    top: 0;
+    right: 0;
+  }
+  /* >>>>>>>>>>>>>> :: Classes Area CSS <<<<<<<<<<<<<<< */
+  .classes {
+    margin-bottom: 0;
+  }
+  .classes .classes_main_figure {
+    margin: 0 auto;
+    width: 66%;
+    margin-top: 1.5em;
+  }
+  .classes figure {
+    width: 100%;
+    margin-left: 0;
+  }
+  .classes .classes__glav {
+    margin-top: 5.3em;
+  }
+  .classes .classes__figure .classes__figure__content p {
+    font-size: 1em;
+  }
+  /* >>>>>>>>>>>>>> :: Trainers Area CSS <<<<<<<<<<<<<<< */
+  .trainers {
+    margin-top: 6.7em;
+  }
+  .trainers .glav {
+    margin-top: 0;
+  }
+  .trainers .trainers__left-cont {
+    padding: 5.31em 1.31em 6.62em 1.69em;
+  }
+  /* >>>>>>>>>>>>>> :: Saya Area CSS <<<<<<<<<<<<<<< */
+  .says img {
+    padding-top: 4.3em;
+  }
+  .says .glav {
+    margin-top: -1.4em;
+    padding-top: 6.8em;
+  }
+  .says .says__main__nav {
+    margin-top: 3.81em;
+  }
+  .says p {
+    font-size: 1em;
+  }
+  /* >>>>>>>>>>>>>> :: News Area CSS <<<<<<<<<<<<<<< */
+  .news .news__main img {
+    height: 100%;
+  }
+  .news .news__one {
+    min-width: 50%;
+  }
+  .news .news__two {
+    min-width: 50%;
+  }
+  .news .news__third {
+    display: none;
+  }
+  /* >>>>>>>>>>>>>> :: News Area CSS <<<<<<<<<<<<<<< */
+  .map {
+    margin-top: 6.8em;
+  }
+  /* >>>>>>>>>>>>>> :: Footer Area CSS <<<<<<<<<<<<<<< */
+  .footer .footer__one p {
+    padding-left: 3em;
+  }
+  .footer .footer__one figure {
+    padding-left: 3em;
+  }
+  .footer .footer__one ul {
+    padding-left: 3em;
+  }
+  .footer .footer__four .row {
+    padding-left: 6em;
+  }
+  .footer .footer__four h3 {
+    padding-left: 4.3em;
+    padding: 0.5em 0em 0em 4.3em;
+  }
+  .footer .footer__three {
+    display: none;
+  }
+  .footer .footer__two {
+    display: none;
+  }
+  .footer .footer__copyright {
+    margin-top: -3.2em;
+  }
+  footer {
+    margin-top: 6.1em;
+  }
+}
+@media (min-width: 810px) and (max-width: 830px) {
+  .mobile-menu {
+    display: block !important;
+  }
+  .sidebar {
+    display: none;
+  }
+  .header__slide__part__one .contact {
+    display: none;
+  }
+  .header h1 {
+    margin-top: 2.5em;
+    padding-top: 2em;
+    text-align: center;
+    font-size: 1.3em;
+  }
+}
+@media (max-width: 767px) {
+  .content {
+    width: 100%;
+  }
+  .content .header__slide .one {
+    background-position-x: 86%;
+  }
+  .sidebar {
+    display: none;
+  }
+  .header p {
+    font-size: 2.4em;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0.7em;
+    width: 78%;
+    line-height: 1.2;
+  }
+  .header p:nth-child(3) {
+    text-align: center;
+    font-size: 1.6em;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0.59em;
+  }
+  .header h1 {
+    font-size: 1em;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 3em;
+    width: 81%;
+    line-height: 1.5;
+  }
+  .main_head-hp1 .main_head__buttons .main_head__buttons__btn-main {
+    font-size: 1em;
+    left: 13.1em;
+    top: 9.6em;
+  }
+  .contact {
+    display: none;
+  }
+  .glav {
+    margin-top: 3.8em;
+  }
+  .glav h2 {
+    font-size: 2.4em;
+    line-height: 1.2;
+  }
+  /* >>>>>>>>>>>>>> :: Philosophy Area CSS <<<<<<<<<<<<<<< */
+  .philosophy .row {
+    padding-top: 1.8em;
+  }
+  .philosophy .phylosophy__left p {
+    font-size: 0.94em;
+  }
+  .philosophy .phylosophy__left figure {
+    padding-left: 0;
+  }
+  .philosophy .phylosophy__left figure:nth-of-type(1) {
+    padding-top: 2.3em;
+  }
+  .philosophy .phylosophy__left h4 {
+    font-size: 1.07em;
+  }
+  .philosophy .phylosophy__right img {
+    margin-left: 0;
+  }
+  /* >>>>>>>>>>>>>> :: Offer Area CSS <<<<<<<<<<<<<<< */
+  .offer {
+    padding-top: 4.2em;
+  }
+  .offer .offer__left .offer__left-substrate {
+    display: none;
+  }
+  .offer .offer__right .offer__right-substrate:before {
+    display: none;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content {
+    text-align: center;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content h3 {
+    font-size: 1.4em;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content p:nth-child(2) {
+    font-size: 2.5em;
+    line-height: 1.1;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content p:nth-child(3) {
+    font-size: 1.2em;
+    margin-top: 1.35em;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content p:nth-child(4) {
+    width: 68%;
+    padding-top: 2.2em;
+    margin: 0 auto;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content a {
+    margin: 3em 0em 2.8em 0em;
+  }
+  /* >>>>>>>>>>>>>> :: Features Area CSS <<<<<<<<<<<<<<< */
+  .features figure {
+    margin-bottom: -1.2em;
+  }
+  .features .features__row {
+    background: none;
+    padding-top: 2.15em;
+  }
+  .features .glav {
+    margin-top: 3.8em;
+  }
+  .features span {
+    width: 3em;
+    height: 3em;
+  }
+  .features span i {
+    font-size: 1.7em;
+  }
+  .features h3 {
+    padding-left: 0em;
+  }
+  .features p {
+    text-align: left;
+    padding-bottom: 1.2em;
+  }
+  .features .features__left figure {
+    padding-left: 12em;
+  }
+  .features .features__left figure:first-child {
+    padding-left: 12em;
+  }
+  .features .features__left figure:nth-child(2) {
+    padding-left: 12em;
+  }
+  .features .features__left span {
+    left: -4.2em;
+    top: -6.3em;
+  }
+  .features .features__right {
+    display: block;
+  }
+  .features .features__right span {
+    left: -4.2em;
+    top: -6.3em;
+  }
+  .features .features__right figure {
+    padding-left: 12em;
+  }
+  .features .features__right figure:first-child {
+    padding-left: 12em;
+  }
+  .features .features__right figure:nth-child(2) {
+    padding-left: 12em;
+  }
+  .features .features__right figure:nth-child(3) {
+    margin-right: 0;
+  }
+  /* >>>>>>>>>>>>>> :: Price Area CSS <<<<<<<<<<<<<<< */
+  .price {
+    height: 100%;
+  }
+  .price figure {
+    margin-bottom: 1em;
+  }
+  .price span {
+    font-size: 2.8em;
+    padding-top: 0.7em;
+  }
+  .price span:after {
+    margin: 0.34em auto;
+  }
+  .price p {
+    font-size: 0.94em;
+    padding: 2.5em 3em;
+    padding-top: 1.7em;
+  }
+  .price a {
+    font-size: 1.5em;
+  }
+  .price .price__left {
+    padding-top: 1em;
+  }
+  .price .price__left figure {
+    left: 0;
+    top: 0;
+  }
+  .price .price__right figure {
+    left: 0;
+    top: 0;
+  }
+  .price .price__center p {
+    padding-bottom: 2.3em;
+  }
+  /* >>>>>>>>>>>>>> :: Classes Area CSS <<<<<<<<<<<<<<< */
+  .classes {
+    margin-bottom: 0;
+  }
+  .classes figure {
+    margin: 0em 0em 1em 0em;
+    width: 100%;
+  }
+  .classes .classes__img {
+    top: 0;
+  }
+  .classes .classes_main_figure {
+    margin-left: 0;
+    width: 100%;
+  }
+  .classes .classes__glav {
+    margin-top: 2.8em;
+  }
+  .classes .row {
+    padding-top: 2.1em;
+  }
+  /* >>>>>>>>>>>>>> :: Trainers Area CSS <<<<<<<<<<<<<<< */
+  .trainers .glav {
+    margin-top: 2.84em;
+  }
+  .trainers .trainers__left,
+  .trainers .trainers__right {
+    text-align: center;
+  }
+  .trainers .trainers__left {
+    margin-top: -3.1em;
+  }
+  .trainers ul {
+    justify-content: center;
+  }
+  .trainers .trainers__left-photo {
+    margin-top: -5em;
+  }
+  .trainers .trainers__left-cont {
+    padding-top: 0;
+    margin-top: -0.85em;
+  }
+  .trainers .trainers-first {
+    margin-top: 3.1em;
+  }
+  /* >>>>>>>>>>>>>> :: Says Area CSS <<<<<<<<<<<<<<< */
+  .says {
+    height: 780px;
+    margin-top: -2.4em;
+    background-position-x: 50%;
+  }
+  .says .glav {
+    padding-top: 3.9em;
+  }
+  .says .glav h2:after {
+    display: none;
+  }
+  .says p {
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.7;
+    padding-top: 2.7em;
+  }
+  .says img {
+    padding-top: 2.3em;
+    width: 130px;
+  }
+  .says h4 {
+    font-size: 1.7em;
+    padding-top: 1.8em;
+  }
+  .says .says__main__nav {
+    margin-top: 3.81em;
+  }
+  /* >>>>>>>>>>>>>> :: News Area CSS <<<<<<<<<<<<<<< */
+  .news .row {
+    padding-top: 2.2em;
+  }
+  .news .news__main .news__main__top img {
+    height: 100%;
+    width: 100%;
+  }
+  .news .news__main .news__main__top span {
+    top: 24.3em;
+  }
+  .news .news__one,
+  .news .news__two {
+    padding-bottom: 1em;
+  }
+  .news .news__one,
+  .news .news__two,
+  .news .news__third {
+    width: 94%;
+    margin: 0 auto;
+  }
+  /* >>>>>>>>>>>>>> :: Map Area CSS <<<<<<<<<<<<<<< */
+  .map {
+    margin-top: 4.3em;
+  }
+  footer {
+    margin-top: 4.3em;
+  }
+  footer .footer__one p {
+    font-size: 1em;
+  }
+  footer .footer__one ul {
+    justify-content: center;
+  }
+  footer .footer__one ul li {
+    margin: 2.63em 0em 3.06em 0.28em;
+  }
+  footer .footer__one figure {
+    justify-content: center;
+  }
+  footer .footer__two {
+    display: none;
+  }
+  footer .footer__three {
+    display: none;
+  }
+  footer .footer__four .row {
+    padding-top: 2.19em;
+  }
+  footer .footer__four .row:last-child {
+    padding-bottom: 3.2em;
+  }
+  footer .footer__four h3 {
+    text-align: center;
+  }
+  footer .footer__four h3:after {
+    margin: 0.66em 0em 0em 9.7em;
+  }
+  footer .footer__four p {
+    font-size: 1em;
+  }
+  footer .footer__four .footer__four__left {
+    max-width: 10%;
+    padding-left: 12.2em;
+  }
+  footer .footer__copyright p {
+    line-height: 1.6;
+    padding: 1.46em 0em 1.46em 0em;
+  }
+}
+@media (min-width: 560px) and (max-width: 570px) {
+  .main_head-hp1 .main_head__buttons .main_head__buttons__btn-main {
+    left: 10.1em;
+  }
+  .trainers .trainers__left-cont {
+    margin-top: 2.15em;
+  }
+  .says {
+    height: 740px;
+  }
+}
+@media (max-width: 440px) {
+  .content {
+    width: 100%;
+  }
+  .content .header__slide .one {
+    background-position-x: 86%;
+  }
+  .sidebar {
+    display: none;
+  }
+  .header p {
+    font-size: 2.4em;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 2.5em;
+    width: 78%;
+    line-height: 1.2;
+  }
+  .header p:nth-child(3) {
+    text-align: center;
+    font-size: 1.6em;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0.59em;
+  }
+  .header h1 {
+    font-size: 1em;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 3em;
+    width: 81%;
+    line-height: 1.5;
+  }
+  .main_head-hp1 .main_head__buttons {
+    top: -30.7%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .main_head-hp1 .main_head__buttons .main_head__buttons__btn-main {
+    font-size: 1em;
+    position: unset;
+    padding: 0.96em 2em;
+  }
+  .contact {
+    display: none;
+  }
+  .glav {
+    margin-top: 3.8em;
+  }
+  .glav h2 {
+    font-size: 2.4em;
+    line-height: 1.2;
+  }
+  /* >>>>>>>>>>>>>> :: Philosophy Area CSS <<<<<<<<<<<<<<< */
+  .philosophy .row {
+    padding-top: 1.8em;
+  }
+  .philosophy .phylosophy__left p {
+    font-size: 0.94em;
+  }
+  .philosophy .phylosophy__left figure {
+    padding-left: 0;
+  }
+  .philosophy .phylosophy__left figure:nth-of-type(1) {
+    padding-top: 2.3em;
+  }
+  .philosophy .phylosophy__left h4 {
+    font-size: 1.07em;
+  }
+  .philosophy .phylosophy__right img {
+    margin-left: 0;
+  }
+  /* >>>>>>>>>>>>>> :: Offer Area CSS <<<<<<<<<<<<<<< */
+  .offer {
+    padding-top: 4.2em;
+  }
+  .offer .offer__left .offer__left-substrate {
+    display: none;
+  }
+  .offer .offer__right .offer__right-substrate:before {
+    display: none;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content {
+    text-align: center;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content h3 {
+    font-size: 1.4em;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content p:nth-child(2) {
+    font-size: 2.5em;
+    line-height: 1.1;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content p:nth-child(3) {
+    font-size: 1.2em;
+    margin-top: 1.35em;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content p:nth-child(4) {
+    width: 68%;
+    padding-top: 2.2em;
+    margin: 0 auto;
+  }
+  .offer .offer__right .offer__right-substrate .offer__right-substrate__content a {
+    margin: 3em 0em 2.8em 0em;
+  }
+  /* >>>>>>>>>>>>>> :: Features Area CSS <<<<<<<<<<<<<<< */
+  .features figure {
+    margin-bottom: -1.2em;
+  }
+  .features .features__row {
+    background: none;
+    padding-top: 2.15em;
+  }
+  .features .glav {
+    margin-top: 3.8em;
+  }
+  .features span {
+    width: 3em;
+    height: 3em;
+  }
+  .features span i {
+    font-size: 1.7em;
+  }
+  .features h3 {
+    padding-left: 0em;
+  }
+  .features p {
+    text-align: left;
+    padding-bottom: 1.2em;
+  }
+  .features .features__left figure {
+    padding-left: 5em;
+  }
+  .features .features__left figure:first-child {
+    padding-left: 5em;
+  }
+  .features .features__left figure:nth-child(2) {
+    padding-left: 5em;
+  }
+  .features .features__left span {
+    left: -4.2em;
+    top: -6.3em;
+  }
+  .features .features__right {
+    display: block;
+  }
+  .features .features__right span {
+    left: -4.2em;
+    top: -6.3em;
+  }
+  .features .features__right figure {
+    padding-left: 5em;
+  }
+  .features .features__right figure:first-child {
+    padding-left: 5em;
+  }
+  .features .features__right figure:nth-child(2) {
+    padding-left: 5em;
+  }
+  .features .features__right figure:nth-child(3) {
+    margin-right: 0;
+  }
+  /* >>>>>>>>>>>>>> :: Price Area CSS <<<<<<<<<<<<<<< */
+  .price {
+    height: 100%;
+  }
+  .price figure {
+    margin-bottom: 1em;
+  }
+  .price span {
+    font-size: 2.8em;
+    padding-top: 0.7em;
+  }
+  .price span:after {
+    margin: 0.34em auto;
+  }
+  .price p {
+    font-size: 0.94em;
+    padding: 2.5em 3em;
+    padding-top: 1.7em;
+  }
+  .price a {
+    font-size: 1.5em;
+  }
+  .price .price__left {
+    padding-top: 1em;
+  }
+  .price .price__left figure {
+    left: 0;
+    top: 0;
+  }
+  .price .price__right figure {
+    left: 0;
+    top: 0;
+  }
+  .price .price__center p {
+    padding-bottom: 2.3em;
+  }
+  /* >>>>>>>>>>>>>> :: Classes Area CSS <<<<<<<<<<<<<<< */
+  .classes {
+    margin-bottom: 0;
+  }
+  .classes .row {
+    padding-top: 2.2em;
+  }
+  .classes .classes__left,
+  .classes .classes__center,
+  .classes .classes__right {
+    height: 473px;
+    margin-bottom: 20px;
+  }
+  .classes .classes__right {
+    margin-bottom: 46px;
+  }
+  .classes .classes__glav {
+    margin-top: 3.8em;
+  }
+  .classes figure {
+    margin: 0em auto 1em auto !important;
+  }
+  .classes .classes__figure .classes__figure__content p {
+    padding: 2.21em 1.11em 3.2em 1.11em;
+    font-size: 0.94em;
+  }
+  .classes .classes__figure .classes__figure__content h3 {
+    font-size: 1.8em;
+  }
+  .classes .classes__img img {
+    height: 100%;
+  }
+  .classes .classes__img span {
+    top: 84.65%;
+    position: absolute;
+  }
+  /* >>>>>>>>>>>>>> :: Trainers Area CSS <<<<<<<<<<<<<<< */
+  .trainers .glav {
+    margin-top: 1.1em;
+  }
+  .trainers .trainers__left,
+  .trainers .trainers__right {
+    text-align: center;
+  }
+  .trainers .trainers__left {
+    margin-top: -3.1em;
+  }
+  .trainers ul {
+    justify-content: center;
+  }
+  .trainers .trainers__left-photo {
+    margin-top: -5em;
+  }
+  .trainers .trainers__left-photo .trainers__left-photo__hidden img {
+    width: 80%;
+  }
+  .trainers .trainers__left-cont {
+    padding: 3.31em 1.31em 6.62em 1.69em;
+  }
+  .trainers .trainers-first {
+    margin-top: 3.1em;
+  }
+  .trainers p {
+    font-size: 0.94em;
+  }
+  /* >>>>>>>>>>>>>> :: Says Area CSS <<<<<<<<<<<<<<< */
+  .says {
+    margin-top: -2.4em;
+    background-position-x: 50%;
+    height: 870px;
+  }
+  .says .glav {
+    padding-top: 3.9em;
+  }
+  .says .glav h2:after {
+    display: none;
+  }
+  .says p {
+    font-size: 0.94em;
+    text-align: center;
+    line-height: 1.7;
+    padding-top: 2.7em;
+  }
+  .says img {
+    padding-top: 2.3em;
+    width: 130px;
+  }
+  .says h4 {
+    font-size: 1.7em;
+    padding-top: 1.8em;
+  }
+  .says .says__main__nav {
+    margin-top: 3.81em;
+  }
+  /* >>>>>>>>>>>>>> :: News Area CSS <<<<<<<<<<<<<<< */
+  .news .row {
+    padding-top: 2.2em;
+  }
+  .news .news__main p {
+    font-size: 0.94em;
+  }
+  .news .news__main .news__main__top img {
+    height: 100%;
+    width: 100%;
+  }
+  .news .news__main .news__main__top span {
+    top: 15em;
+  }
+  .news .news__one,
+  .news .news__two {
+    padding-bottom: 1em;
+  }
+  .news .news__one,
+  .news .news__two,
+  .news .news__third {
+    width: 94%;
+    margin: 0 auto;
+  }
+  /* >>>>>>>>>>>>>> :: Map Area CSS <<<<<<<<<<<<<<< */
+  .map {
+    margin-top: 4.3em;
+  }
+  footer {
+    margin-top: 4.3em;
+  }
+  footer .footer__one p {
+    font-size: 0.94em;
+  }
+  footer .footer__one ul {
+    justify-content: center;
+  }
+  footer .footer__one ul li {
+    margin: 2.63em 0em 5.06em 0.28em;
+  }
+  footer .footer__two {
+    display: none;
+  }
+  footer .footer__three {
+    display: none;
+  }
+  footer .footer__four .row {
+    padding-top: 2.19em;
+  }
+  footer .footer__four .row:last-child {
+    padding-bottom: 3.2em;
+  }
+  footer .footer__four h3 {
+    text-align: center;
+  }
+  footer .footer__four h3:after {
+    margin: 0.66em 0em 0em 4.7em;
+  }
+  footer .footer__four p {
+    font-size: 0.94em;
+  }
+  footer .footer__four .footer__four__left {
+    max-width: 10%;
+    padding-left: 4.2em;
+  }
+  footer .footer__copyright p {
+    line-height: 1.6;
+    padding: 1.46em 0em 1.46em 0em;
+    font-size: 0.74em;
+  }
+}
+@media (min-width: 322px) and (max-width: 360px) {
+  .news .news__main .news__main__top span {
+    top: 14.5em;
+  }
+}
+@media (max-width: 321px) {
+  .news .news__main .news__main__top span {
+    top: 12.5em;
+  }
+}
