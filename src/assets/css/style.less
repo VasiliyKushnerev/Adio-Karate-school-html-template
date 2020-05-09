@@ -17,8 +17,6 @@
     @import 'slick-theme.css';
     @import 'elements.less';
 
-
-
     /* >>>>>>>>>>>>>> ::Common CSS <<<<<<<<<<<<<<< */
 
     h1,
@@ -29,19 +27,16 @@
     h6 {
       margin:0;
       font-weight: 700;
-      font-family:@main-font;
     }
 
     body,
     p {
-      font-family: @main-font;
       font-weight: 400;
       color: #888;
       font-size: 1em;
       color: @second-color;
     }
     a{
-      font-family: @main-font;
       color: @second-color;
     }
     img {
@@ -53,8 +48,8 @@
     @third-color: #fff;
     @fourth-color: #e2dede;
 
-    @main-font:'Poppins', sans-serif;
-    @second-font:'Quicksand', sans-serif;
+    @main-font: 'Poppins','Montserrat', sans-serif;
+    @second-font: 'Quicksand','MontserratAlternates', sans-serif;
 
     @main-size: 3.81em;
 
@@ -138,7 +133,7 @@
       .flex();
       max-width: 50%;
       p{
-        font-family: 'Poppins', sans-serif;
+        font-family: @main-color;
         font-weight: 900;
         font-size: 1.25em;
         color: #363636;
@@ -493,7 +488,7 @@
             a{
               font-size: 0.94em;
               font-weight: 500;
-              font-family: @second-font;
+              font-family: @main-font;
             }
           }
           li:first-child{
@@ -563,6 +558,7 @@
       .phylosophy__left{
       h4{
         font-size: 1.38em;
+        font-family: @main-font;
         line-height: 31px;
         font-weight: 700;
       }
@@ -581,6 +577,7 @@
       }
       figure h3{
         font-size: 1.06em;
+        font-family: @main-font;
         font-weight: 700;
         color: @main-color;
       }
@@ -630,17 +627,20 @@
           position: relative;
           h3{
             font-size: 1.7em;
+            font-family: @main-font;
             font-weight: 900;
             padding-top: 2.2em;
           }
           p:nth-child(2){
             font-size: 3.75em;
+            font-family: @main-font;
             font-weight: 800;
             padding-top: 0.81em;
             color: @third-color;
         }
           p:nth-child(3){
             font-size: 1.37em;
+            font-family: @main-font;
             font-weight: 800;
             font-style: italic;
             line-height: 1.2;
@@ -661,6 +661,7 @@
           }
           a{
             font-size: 1.06em;
+            font-family: @main-font;
             font-weight: 500;
             padding: 0.9em 2.82em;
             margin: 1.88em 0em 2.8em 0em;
@@ -689,6 +690,7 @@
     }
     h3{
       font-size: 1.56em;
+      font-family:@main-font;
       font-weight: 700;
       font-style: italic;
       color: @main-color;
@@ -795,12 +797,14 @@
     }
     h3{
       font-size: 2em;
+      font-family:@main-font;
       font-weight: 700;
       font-style: italic;
       padding-top: 1.87em;
     }
     span{
       font-size: 3.125em;
+      font-family: @main-font;
       font-weight: 800;
       font-style: italic;
       color: @main-color;
@@ -824,6 +828,7 @@
     }
     a{
       font-size: 2em;
+      font-family: @main-font;
       font-weight: 500;
       color: @second-color;
       border: 1.5px solid @main-color;
@@ -897,6 +902,7 @@
       height: 389px;
       h3{
         font-size: 1.94em;
+        font-family: @main-font;
         font-weight: 400;
         padding: 2.44em 0em 0em 0.52em;
         color: @main-color;
@@ -965,6 +971,7 @@
     }
     h3{
       font-size: 1.56em;
+      font-family: @main-font;
       font-weight: 700;
       font-style: italic;
       color: @main-color;
@@ -972,6 +979,7 @@
     h4{
       font-size: 0.94em;
       font-weight: 700;
+      font-family: @main-font;
       padding-top: 0.66em;
     }
     p{
@@ -1078,6 +1086,7 @@
       }
       h4{
         font-size: 1.87em;
+        font-family: @main-font;
         padding-top: 1.73em;
         text-align: center;
         span{
@@ -1149,6 +1158,7 @@
         span{
           .inline-block;
           font-size: 0.94em;
+          font-family: @main-font;
           color: @third-color;
           background: @main-color;
           padding: 0.7em 0.63em;
@@ -1180,6 +1190,7 @@
         }
         p{
           font-size: 0.875em;
+          font-family: @main-font;
           font-weight: 700;
           padding: 0em 0em 0em 0.70em;
         }
@@ -1208,6 +1219,7 @@
     margin-top: 8.1em;
     h3{
       font-size: 1.38em;
+      font-family: @main-font;
       font-weight: 700;
       color: @main-color;
       padding: 0.2em 0em 0em 1.8em;
@@ -1225,6 +1237,7 @@
       .flex();
       h4{
         font-size: 1.1em;
+        font-family: @main-font;
         font-weight: 900;
         font-style: italic;
         line-height: 1.3;
@@ -1273,6 +1286,8 @@
           }
           p{
             font-size: 1.125em;
+            font-family: @main-font;
+            font-style: italic;
             font-weight: 500;
             padding: 0.2em 0em 0em 0.46em;
           }
@@ -1302,6 +1317,7 @@
       span{
         font-size: 0.94em;
         font-weight: 700;
+        font-family: @main-font;
         padding-top: 0.37em;
         display: block;
       }
@@ -1340,6 +1356,8 @@
       border-top: 1px solid #ddd;
       p{
         text-align: center;
+        font-family: @second-font;
+        font-weight: 500;
         font-size: 0.94em;
         padding: 2.46em 0em 2.46em 0em;
         color: #333;

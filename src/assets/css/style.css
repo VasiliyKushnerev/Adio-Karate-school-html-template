@@ -25,18 +25,15 @@ h5,
 h6 {
   margin: 0;
   font-weight: 700;
-  font-family: 'Poppins', sans-serif;
 }
 body,
 p {
-  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   color: #888;
   font-size: 1em;
   color: #363636;
 }
 a {
-  font-family: 'Poppins', sans-serif;
   color: #363636;
 }
 img {
@@ -56,7 +53,7 @@ img {
 }
 .glav h2 {
   font-size: 3.81em;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 700;
   font-style: italic;
   color: #ff4150;
@@ -85,7 +82,7 @@ img {
   max-width: 50%;
 }
 .mobile-menu .mobile-menu__left p {
-  font-family: 'Poppins', sans-serif;
+  font-family: #ff4150;
   font-weight: 900;
   font-size: 1.25em;
   color: #363636;
@@ -212,7 +209,7 @@ img {
 }
 .mobile-menu .toggle-block .toggle-block-container .main__nav li a span {
   font-size: 0.875em;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 500;
   color: #fff;
   -webkit-transition: all 300ms ease-in-out;
@@ -311,7 +308,7 @@ img {
   position: relative;
 }
 .header h1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-size: 1.93em;
   font-weight: 700;
   margin: 7.52em 0 0 9.23em;
@@ -319,7 +316,7 @@ img {
   word-break: normal;
 }
 .header p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-size: 3.81em;
   font-weight: 800;
   color: #363636;
@@ -362,7 +359,7 @@ img {
   -webkit-flex-direction: row;
   flex-direction: row;
   font-size: 1.25em;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 700;
   color: #363636;
   padding: 2.5em 0 0 0.6em;
@@ -387,7 +384,7 @@ img {
 .main_head-hp1 .main_head__buttons .main_head__buttons__btn-main {
   background: #ff4150;
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
   font-size: 1.78em;
@@ -498,7 +495,7 @@ img {
   padding: 2em 0 0 1.25em;
 }
 .navigation .navigation__top-nav p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 900;
   font-size: 1.25em;
   color: #363636;
@@ -528,7 +525,7 @@ img {
 .navigation .navigation__menu ul li a {
   font-size: 0.94em;
   font-weight: 500;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
 }
 .navigation .navigation__menu ul li:first-child {
   padding-top: 1.1em;
@@ -539,7 +536,7 @@ img {
 }
 .navigation .navigation__menu li,
 .navigation .navigation__menu a {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 1.06em;
   padding-bottom: 1.27em;
@@ -614,11 +611,12 @@ img {
 }
 .philosophy .phylosophy__left h4 {
   font-size: 1.38em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   line-height: 31px;
   font-weight: 700;
 }
 .philosophy .phylosophy__left p {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', 'MontserratAlternates', sans-serif;
   font-size: 1em;
   font-weight: 500;
   line-height: 26px;
@@ -632,12 +630,13 @@ img {
 }
 .philosophy .phylosophy__left figure h3 {
   font-size: 1.06em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 700;
   color: #ff4150;
 }
 .philosophy .phylosophy__left figure p {
   padding-top: 1em;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', 'MontserratAlternates', sans-serif;
   font-weight: 500;
   font-size: 0.94em;
   line-height: 23px;
@@ -682,17 +681,20 @@ img {
 }
 .offer .offer__right .offer__right-substrate__content h3 {
   font-size: 1.7em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 900;
   padding-top: 2.2em;
 }
 .offer .offer__right .offer__right-substrate__content p:nth-child(2) {
   font-size: 3.75em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 800;
   padding-top: 0.81em;
   color: #fff;
 }
 .offer .offer__right .offer__right-substrate__content p:nth-child(3) {
   font-size: 1.37em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 800;
   font-style: italic;
   line-height: 1.2;
@@ -710,11 +712,12 @@ img {
   line-height: 27px;
   padding-top: 1em;
   width: 62%;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', 'MontserratAlternates', sans-serif;
   color: #fff;
 }
 .offer .offer__right .offer__right-substrate__content a {
   font-size: 1.06em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 500;
   padding: 0.9em 2.82em;
   margin: 1.88em 0em 2.8em 0em;
@@ -743,12 +746,13 @@ img {
 }
 .features h3 {
   font-size: 1.56em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 700;
   font-style: italic;
   color: #ff4150;
 }
 .features p {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', 'MontserratAlternates', sans-serif;
   font-size: 0.94em;
   font-weight: 700;
   width: 13.77em;
@@ -876,12 +880,14 @@ img {
 }
 .price h3 {
   font-size: 2em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 700;
   font-style: italic;
   padding-top: 1.87em;
 }
 .price span {
   font-size: 3.125em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 800;
   font-style: italic;
   color: #ff4150;
@@ -897,7 +903,7 @@ img {
   margin: 0.34em 0 0 1.9em;
 }
 .price p {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', 'MontserratAlternates', sans-serif;
   font-size: 1.09em;
   font-weight: 500;
   line-height: 1.8em;
@@ -905,6 +911,7 @@ img {
 }
 .price a {
   font-size: 2em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 500;
   color: #363636;
   border: 1.5px solid #ff4150;
@@ -1002,12 +1009,13 @@ img {
 }
 .classes .classes__figure .classes__figure__content h3 {
   font-size: 1.94em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 400;
   padding: 2.44em 0em 0em 0.52em;
   color: #ff4150;
 }
 .classes .classes__figure .classes__figure__content p {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', 'MontserratAlternates', sans-serif;
   font-size: 1.125em;
   font-weight: 500;
   padding: 2.21em 1.11em 2.5em 1.11em;
@@ -1040,7 +1048,7 @@ img {
   margin: 2.88em 7.65em 2.35em 0.88em;
 }
 .classes .classes__img span {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-size: 1.69em;
   font-weight: 700;
   font-style: italic;
@@ -1070,6 +1078,7 @@ img {
 }
 .trainers h3 {
   font-size: 1.56em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 700;
   font-style: italic;
   color: #ff4150;
@@ -1077,11 +1086,12 @@ img {
 .trainers h4 {
   font-size: 0.94em;
   font-weight: 700;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   padding-top: 0.66em;
 }
 .trainers p {
   font-size: 1em;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', 'MontserratAlternates', sans-serif;
   font-weight: 500;
   line-height: 1.7;
   padding-top: 1.69em;
@@ -1217,6 +1227,7 @@ img {
 }
 .says h4 {
   font-size: 1.87em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   padding-top: 1.73em;
   text-align: center;
 }
@@ -1226,7 +1237,7 @@ img {
 .says p {
   font-size: 1.125em;
   line-height: 2;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', 'MontserratAlternates', sans-serif;
   font-weight: 500;
   padding-top: 3.22em;
 }
@@ -1307,6 +1318,7 @@ img {
   *display: inline;
   *zoom: 1;
   font-size: 0.94em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   color: #fff;
   background: #ff4150;
   padding: 0.7em 0.63em;
@@ -1317,7 +1329,7 @@ img {
 .news .news__main p {
   font-size: 1em;
   line-height: 1.56;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', 'MontserratAlternates', sans-serif;
   font-weight: 500;
   padding: 2.44em 2.97em 4.47em 1.5em;
 }
@@ -1341,6 +1353,7 @@ img {
 .news .news__main .news__comments__left p,
 .news .news__main .news__comments__right p {
   font-size: 0.875em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 700;
   padding: 0em 0em 0em 0.7em;
 }
@@ -1365,6 +1378,7 @@ footer {
 }
 footer h3 {
   font-size: 1.38em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 700;
   color: #ff4150;
   padding: 0.2em 0em 0em 1.8em;
@@ -1386,6 +1400,7 @@ footer .footer__one figure {
 }
 footer .footer__one figure h4 {
   font-size: 1.1em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   font-weight: 900;
   font-style: italic;
   line-height: 1.3;
@@ -1393,7 +1408,7 @@ footer .footer__one figure h4 {
 }
 footer .footer__one p {
   font-size: 1.125em;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', 'MontserratAlternates', sans-serif;
   font-weight: 500;
   line-height: 1.72;
   padding-top: 1.75em;
@@ -1451,6 +1466,8 @@ footer .footer__two ul li a i {
 }
 footer .footer__two ul li a p {
   font-size: 1.125em;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
+  font-style: italic;
   font-weight: 500;
   padding: 0.2em 0em 0em 0.46em;
 }
@@ -1477,11 +1494,12 @@ footer .footer__three .footer__three-one {
 footer .footer__three span {
   font-size: 0.94em;
   font-weight: 700;
+  font-family: 'Poppins', 'Montserrat', sans-serif;
   padding-top: 0.37em;
   display: block;
 }
 footer .footer__three p {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', 'MontserratAlternates', sans-serif;
   font-size: 1.06em;
   font-weight: 500;
   line-height: 1.56;
@@ -1502,7 +1520,7 @@ footer .footer__four .row {
   padding-top: 3.19em;
 }
 footer .footer__four p {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', 'MontserratAlternates', sans-serif;
   font-weight: 500;
   font-size: 1.125em;
   line-height: 1.5;
@@ -1513,6 +1531,8 @@ footer .footer__copyright {
 }
 footer .footer__copyright p {
   text-align: center;
+  font-family: 'Quicksand', 'MontserratAlternates', sans-serif;
+  font-weight: 500;
   font-size: 0.94em;
   padding: 2.46em 0em 2.46em 0em;
   color: #333;
